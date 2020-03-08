@@ -23,6 +23,6 @@ class MY_Controller extends CI_Controller
     public function view($data)
     {
         // menampilkan halaman layouts/template beserta data yang diperlukan di monitor
-        $this->load->view('layouts/index', $data);
+        $this->load->view('layouts/html', $data);
     }
 }

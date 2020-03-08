@@ -1,72 +1,68 @@
-<!-- ########## container halaman ########## -->
+<!-- bootstrap instalasi -->
 <div class="content-wrapper">
-    <div class="container mx-1">
-        <!-- ########## judul ########## -->
-        <section class="content-header">
-            <div class="container-fluid">
-                <div class="row mx-1">
-                    <div class="col-sm-6">
-                        <h3 class="font-weight-bold text-gray"><i class="far fa-fw fa-window-maximize"></i> Bootstrap - Instalasi</h3>
-                    </div>
-                    <!-- info -->
-                    <div class="h2 col-sm-6">
-                        <a class="float-sm-right" href="#" id="dropdown" data-toggle="dropdown">
-                            <i class="fas fa-fw fa-exclamation-circle"></i>
-                        </a>
-                        <!-- Dropdown info -->
-                        <div class="p-4 dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="dropdown">
-                            <pre class="mt-1 mb-n2 mx-3">
-                            <h6>1. Bila ada yang salah ketik atau kurang lengkap </h6>
-                            <h6> sampaikan ke admin untuk diperbaiki.</h6>
-                            <h6>2. Apabila ada cara yang lebih mudah dan cepat, </h6>
-                            <h6> tolong informasikan ke admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h6>
-                            <h6>3. Bantuan koreksi kalian sangat kami harapkan.</h6>
-                            <h6>4. Semoga bermanfaat buat kita semua.</h6>
-                            <h6>5. Terima kasih atas suportnya untuk Komunitas Coding.</h6>
-                            </pre>
-                        </div>
-                    </div>
-                    <!-- akhir info -->
+    <!-- Sidebar  -->
+    <?php $this->load->view('layouts/_sidebar_website'); ?>
+    <!-- akhir sidebar -->
+
+    <!-- ########## judul ########## -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mx-1">
+                <div class="col-sm-6">
+                    <h3 class="font-weight-bold text-gray"><i class="fab fa-fw fa-bootstrap"></i> Bootstrap - Instalasi</h3>
                 </div>
+                <!-- info -->
+                <div class="h2 col-sm-6">
+                    <a class="float-sm-right" href="#" id="dropdown" data-toggle="dropdown">
+                        <i class="fas fa-fw fa-exclamation-circle"></i>
+                    </a>
+                    <!-- Dropdown info -->
+                    <div class="p-4 dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="dropdown">
+                        <h6>1. Bila ada salah ketik atau kurang lengkap </h6>
+                        <h6> sampaikan ke admin akan segera kami perbaiki.</h6>
+                        <h6>2. Bila ada cara yang lebih baik, mudah dan cepat, </h6>
+                        <h6> untuk mempelajari infokan ke admin. <a href="<?= base_url('/') ?>"><kbd>Kontak</kbd></a></h6>
+                        <h6>3. Ide dan koreksi sangat berharga buat kami.</h6>
+                        <h6>4. Semoga bermanfaat buat kita semua.</h6>
+                        <h6>5. Terima kasih atas supportnya untuk Komunitascoding.</h6>
+                    </div>
+                </div>
+                <!-- akhir info -->
             </div>
-        </section>
-        <!-- ### akhir judul ### -->
-
-        <!-- ########## container card ########## -->
-        <div class="col-md-11">
-            <h6>Download template Bootstrap yang akan kalian gunakan,</h6>
-            <h6>- <a href="https://startbootstrap.com/templates/sb-admin-angular/" target="_black">https://startbootstrap.com/templates/sb-admin-angular/</a> atau</h6>
-            <h6>- <a href="https://adminlte.io/" target="_black">https://adminlte.io/</a></h6>
-            <h6>untuk yang AdminLTE karena berupa github, dibagian paling bawah assets,</h6>
-            <h6>File template AdminLTE sangat besar karena fiture nya yang lengkap.</h6>
-            <h6>untuk bootstap isi file akan berbeda sesuai dengan template yang kita gunakan, isi forder akan tegantung dari si pembuat template.</h6>
-            <br>
-            <h6>Hanya dengan bootstrap sudah dapat membuat website tanpa database.</h6>
-            <h6>1. Ganti nama folder dengan nama website yang akan kita gunakan.</h6>
-            <h6>2. Simpan di xampp/htdocs.</h6>
-            <h6>3. Bootstrap sudah siap digunakan untuk membuat website.</h6>
-            <h6>4. Bootstrap adalah framework untuk CSS (mengatur tampilan website).</h6>
-            <br><br>
-            <h6>Bila kita mengunakan Codeigniter, kita bisa menggabungkannya, Codeigniter merupakan framework untuk php.</h6>
-            <h6>1. Download template bootstrap yang akan kita gunakan.</h6>
-            <h6>2. Extrak zip filenya.</h6>
-            <h6>3. Buat folder baru di dalam htdocs/projek_codeigniter/asset dengan nama assets. Sejajar dengan folder application.</h6>
-            <div class="card p-1 shadow col-md-6">
-                <img src="<?= base_url('assets/img/website/bootstrap-instalasi.jpg') ?>" class="img-fluid" alt="">
-            </div>
-            <h6>4. Copy semua folder yang ada si bootstrap dan paste di dalam folder assets, karena yang kita butuhkan hanya yang berupa folder saja.</h6>
-            <h6>5. Untuk bootstrap yang aslinya nanti akan kita butuhkan untuk contekan coding halaman HTML nya.</h6>
-            <h6>6. Untuk memudahkan melihat contekan tempatkan bootstrap aslinya dalam xampp/htdocs juga,</h6>
-            <h6>supaya kita bisa melihat hasil tampilan web nya di browser kita.</h6>
-            <h6>7. Yang terakir kita masih membutuhkan setting untuk link yang ada di bagian header dan footernya.</h6>
-            <h6>- bisa dilihat di bagian <a href="<?= base_url('website/bootstrap_setting') ?>">Bootstrap - Setting</a></h6>
-            <br><br>
-
-            <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
-                <i class="fas fa-chevron-up"></i>
-            </a>
         </div>
+    </section>
+    <!-- ### akhir judul ### -->
+
+    <!-- ########## halaman ########## -->
+    <div class="col-lg-11 mt-n2 container-fluid">
+        <h5>Download template Bootstrap yang akan kita gunakan:</h5>
+        <h5>- <a href="https://startbootstrap.com/templates/sb-admin-angular/" target="_black">https://startbootstrap.com/templates/sb-admin-angular/</a> atau</h5>
+        <h5>- <a href="https://adminlte.io/" target="_black">https://adminlte.io/</a></h5>
+        <h5>Untuk yang AdminLTE karena berupa github, dibagian paling bawah assets,</h5>
+        <h5>File template AdminLTE sangat besar karena fiture nya yang lengkap.</h5>
+        <h5>Untuk bootstrap isi file akan berbeda sesuai sesuai template yang kita gunakan</h5>
+        <br>
+        <h5>Bootstrap merupakan framework CSS jadi hanya dengan bootstrap</h5>
+        <h5>kita sudah dapat membuat website tanpa ada pengolahan database.</h5>
+        <h5>1. Extrak bootstrap ganti nama folder dengan nama projek kita</h5>
+        <h5>2. Simpan di xampp/htdocs.</h5>
+        <h5>3. Bootstrap sudah siap digunakan untuk membuat website.</h5>
+        <br>
+        <h5>Bila kita mengunakan Codeigniter, kita bisa menggabungkannya, Codeigniter merupakan framework untuk php.</h5>
+        <h5>1. Download template bootstrap yang akan kita gunakan.</h5>
+        <h5>2. Extrak zip filenya dan ganti nama folder dengan assets</h5>
+        <h5>3. Simpan dalam xampp/projek_kita</h5>
+        <div class="card p-1 shadow col-md-6">
+            <img src="<?= base_url('images/website/bootstrap-instalasi.jpg') ?>" class="img-fluid" alt="">
+        </div>
+        <h5>4. Yang terakir kita masih membutuhkan setting untuk link yang ada di bagian header dan footernya.</h5>
+        <h5>- bisa dilihat di bagian <a href="<?= base_url('bootstrap_setting') ?>">Bootstrap - Setting</a></h5>
+        <h5>5. CI-BS siap digunakan.
     </div>
-    <!-- ### akhir container card ### -->
+    <!-- ### akhir halaman ### -->
+    <br><br>
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
 </div>
-<!-- ### akhir container halaman ### -->
+<!-- akhir bootstrap instalasi-->

@@ -21,7 +21,7 @@
 						<h6>1. Bila ada salah ketik atau kurang lengkap </h6>
 						<h6> sampaikan ke admin akan segera kami perbaiki.</h6>
 						<h6>2. Bila ada cara yang lebih baik, mudah dan cepat, </h6>
-						<h6> untuk mempelajari infokan ke admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h6>
+						<h6> untuk mempelajari infokan ke admin. <a href="<?= base_url('/') ?>"><kbd>Kontak</kbd></a></h6>
 						<h6>3. Ide dan koreksi sangat berharga buat kami.</h6>
 						<h6>4. Semoga bermanfaat buat kita semua.</h6>
 						<h6>5. Terima kasih atas supportnya untuk Komunitascoding.</h6>

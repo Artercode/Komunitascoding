@@ -9,7 +9,7 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-sm-6">
-               <h3 class="font-weight-bold text-gray"><i class="mx-1 far fa-fw fa-sticky-note"></i>Note</h3>
+               <h3 class="font-weight-bold text-gray"><i class="far fa-fw fa-sticky-note"></i> Note</h3>
             </div>
             <!-- info -->
             <div class="h2 col-sm-6">

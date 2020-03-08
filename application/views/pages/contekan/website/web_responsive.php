@@ -1,4 +1,4 @@
-<!-- ci instalasi -->
+<!-- ws responsive -->
 <div class="content-wrapper">
     <!-- Sidebar  -->
     <?php $this->load->view('layouts/_sidebar_website'); ?>
@@ -9,7 +9,7 @@
         <div class="container-fluid">
             <div class="row mx-1">
                 <div class="col-sm-6">
-                    <h3 class="font-weight-bold text-gray"><i class="fab fa-free-code-camp"></i> Codeigniter - Instalasi</h3>
+                    <h3 class="font-weight-bold text-gray"><i class="fas fw fa-globe ml-1"></i></i> WEB Responsive</h3>
                 </div>
                 <!-- info -->
                 <div class="h2 col-sm-6">
@@ -33,14 +33,15 @@
     </section>
     <!-- ### akhir judul ### -->
 
-    <!-- ########## halaman ########## -->
+    <!-- ########## container card ########## -->
     <div class="col-lg-11 mt-n2 container-fluid">
-        <h5>1. Download Codeigniter: <a href="https://codeigniter.com/download" target="_blank">https://codeigniter.com/download</a></h5>
-        <h5>2. Extrak zip filenya dan ganti nama forder seperti nama projek kita.</h5>
-        <h5>3. Pindahkan folder projek anda ke dalam folder htdocs yang ada di Xampp (../xampp/htdocs/projek_kita). </h5>
-        <h5>4. Jalankan Xampp, jalankan Apache dan MySql untuk databasenya.</h5>
-        <h5>5. Jalankan Codeigniter nya di browser dengan menetikkan <a href="" target="_blank">localhost/nama-projek/</a> yang telah dibuat</h5>
-        <h5>6. Kita sudah berhasil menginstal Codeigniter.</h5>
+        <h5>Website responsive adalah website yang tetap tersusun rapi bila dibuka mengunakan handphone.</h5>
+        <h5>Hal ini bisa dilakuan karena adanya sistem GRID pada halaman website,</h5>
+        <h5>pada umumnya semua framework untuk CSS sudah mengunakan sistem ini,</h5>
+        <h5>Kita disini menggunakan bootstrap tentu saja sudah memiliki sistem GRID didalamnya.</h5>
+        <br>
+
+        <h5><a href="">Bootstrap - GRID</a></h5>
     </div>
     <!-- ### akhir halaman ### -->
     <br><br>
@@ -48,4 +49,6 @@
         <i class="fas fa-chevron-up"></i>
     </a>
 </div>
-<!-- akhir ci instalasi -->
+<!-- ### akhir container card ### -->
+</div>
+<!-- akhir ws responsive -->

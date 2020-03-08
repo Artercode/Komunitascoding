@@ -68,13 +68,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= base_url('website/codeigniter_instalasi') ?>" class="nav-link">
+                            <a href="<?= base_url('codeigniter_instalasi') ?>" class="nav-link">
                                 <i class="nav-icon fab fa-free-code-camp"></i>
                                 <p>Codeigniter - Instalasi</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('website/codeigniter_setting') ?>" class="nav-link">
+                            <a href="<?= base_url('codeigniter_setting') ?>" class="nav-link">
                                 <i class="nav-icon fab fa-free-code-camp"></i>
                                 <p>Codeigniter - Setting</p>
                             </a>
@@ -89,13 +89,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= base_url('website/bootstrap_instalasi') ?>" class="nav-link">
+                            <a href="<?= base_url('bootstrap_instalasi') ?>" class="nav-link">
                                 <i class="nav-icon fab fa-bootstrap"></i>
                                 <p>Bootstrap - Instalasi</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('website/bootstrap_setting') ?>" class="nav-link">
+                            <a href="<?= base_url('bootstrap_setting') ?>" class="nav-link">
                                 <i class="nav-icon fab fa-bootstrap"></i>
                                 <p>Bootstrap - Setting</p>
                             </a>
@@ -110,13 +110,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= base_url('website/websistim_responsive') ?>" class="nav-link">
+                            <a href="<?= base_url('WEB_responsive') ?>" class="nav-link">
                                 <i class="nav-icon far fa-circle"></i>
                                 <p>Web Responsive</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('website/websistim_templatedinamis') ?>" class="nav-link">
+                            <a href="<?= base_url('WEB_template_dinamis') ?>" class="nav-link">
                                 <i class="nav-icon far fa-circle"></i>
                                 <p>Tamplate Dinamis</p>
                             </a>

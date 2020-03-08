@@ -9,7 +9,7 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-sm-6">
-               <h3 class="font-weight-bold text-gray"><i class="mx-1 fas fa-fw fa-feather"></i>Sekedar Tau</h3>
+               <h3 class="font-weight-bold text-gray"><i class="fas fa-fw fa-feather"></i> Sekedar Tau</h3>
             </div>
             <!-- info -->
             <div class="h2 col-sm-6">
