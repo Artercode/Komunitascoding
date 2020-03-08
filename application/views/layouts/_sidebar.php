@@ -23,25 +23,25 @@
                 <!-- ########## selamat datang ########## -->
                 <li class="nav-item has-treeview menu-open">
                     <a href="" class="nav-link active">
-                        <i class="mx-1 fas fa-fw fa-child"></i>
+                        <i class="nav-icon fas fa-child"></i>
                         <p>Selamat Datang<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="<?= base_url('/') ?>" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-child"></i>
+                                <i class="nav-icon fas fa-child"></i>
                                 <p>Selamat Datang</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('note') ?>" class="nav-link active">
-                                <i class="mx-1 far fa-fw fa-sticky-note"></i>
+                                <i class="nav-icon far fa-sticky-note"></i>
                                 <p>Note</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('camp') ?>" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-campground"></i>
+                                <i class="nav-icon fas fa-campground"></i>
                                 <p>Camp</p>
                             </a>
                         </li>
@@ -50,20 +50,20 @@
                 <!-- ########## sekedar tau ########## -->
                 <li class="nav-item">
                     <a href="<?= base_url('sekedar_tau') ?>" class="nav-link">
-                        <i class="fas fa-fw fa-feather"></i>
+                        <i class="nav-icon fas fa-feather"></i>
                         <p>Sekedar Tau<span class="right badge badge-danger">Baru</span></p>
                     </a>
                 </li>
                 <!-- ########## aula ########## -->
                 <li class="nav-item has-treeview menu-close">
                     <a href="<?= base_url('/') ?>" class="nav-link active">
-                        <i class="mx-1 fas fa-fw fa-chair"></i>
+                        <i class="nav-icon fas fa-chair"></i>
                         <p>Aula<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-question"></i>
+                                <i class="nav-icon fas fa-question"></i>
                                 <p>Tanya</p>
                             </a>
                         </li>
@@ -71,7 +71,7 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-project-diagram"></i>
+                                <i class="nav-icon fas fa-project-diagram"></i>
                                 <p>Projek</p>
                             </a>
                         </li>
@@ -79,7 +79,7 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-users-cog"></i>
+                                <i class="nav-icon fas fa-users-cog"></i>
                                 <p>Grup</p>
                             </a>
                         </li>
@@ -88,13 +88,13 @@
                 <!-- ########## Contekan ########## -->
                 <li class="nav-item has-treeview menu-open">
                     <a href="" class="nav-link active">
-                        <i class="mx-1 fas fa-fw fa-chess-board"></i>
+                        <i class="nav-icon fas fa-chess-board"></i>
                         <p>Contekan<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="<?= base_url('website') ?>" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-globe ml-1"></i>
+                                <i class="nav-icon fas fa-globe"></i>
                                 <p>Website</p>
                             </a>
                         </li>
@@ -102,7 +102,7 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link active">
-                                <i class="mx-1 fab fa-fw fa-android"></i>
+                                <i class="nav-icon fab fa-android"></i>
                                 <p>Android App & Game</p>
                             </a>
                         </li>
@@ -110,7 +110,7 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link active">
-                                <i class="mx-1 fas fa-fw fa-archive"></i>
+                                <i class="nav-icon fas fa-archive"></i>
                                 <p>Arsip</p>
                             </a>
                         </li>

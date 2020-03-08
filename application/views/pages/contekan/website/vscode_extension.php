@@ -18,13 +18,13 @@
                     </a>
                     <!-- Dropdown info -->
                     <div class="p-4 dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="dropdown">
-                        <h6>1. Bila ada yang salah ketik atau kurang lengkap </h6>
-                        <h6> sampaikan ke admin untuk diperbaiki.</h6>
-                        <h6>2. Apabila ada cara yang lebih mudah dan cepat, </h6>
-                        <h6> tolong informasikan ke admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h6>
-                        <h6>3. Bantuan koreksi kalian sangat kami harapkan.</h6>
+                        <h6>1. Bila ada salah ketik atau kurang lengkap </h6>
+                        <h6> sampaikan ke admin akan segera kami perbaiki.</h6>
+                        <h6>2. Bila ada cara yang lebih baik, mudah dan cepat, </h6>
+                        <h6> untuk mempelajari infokan ke admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h6>
+                        <h6>3. Ide dan koreksi sangat berharga buat kami.</h6>
                         <h6>4. Semoga bermanfaat buat kita semua.</h6>
-                        <h6>5. Terima kasih atas suportnya untuk Komunitas Coding.</h6>
+                        <h6>5. Terima kasih atas supportnya untuk Komunitascoding.</h6>
                     </div>
                 </div>
                 <!-- akhir info -->
