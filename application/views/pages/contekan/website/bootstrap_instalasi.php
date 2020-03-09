@@ -50,8 +50,9 @@
         <br>
         <h5>Bila kita mengunakan Codeigniter, kita bisa menggabungkannya, Codeigniter merupakan framework untuk php.</h5>
         <h5>1. Download template bootstrap yang akan kita gunakan.</h5>
-        <h5>2. Extrak zip filenya dan ganti nama folder dengan assets</h5>
-        <h5>3. Simpan dalam xampp/projek_kita</h5>
+        <h5>2. Extrak zip filenya dan ganti nama folder dengan bootstrap atau lte.</h5>
+        <h5>3. Buat file baru dengan nama assets di dalam folder projek kita.</h5>
+        <h5>4. Simpan seperti ini xampp/projek_kita/assets/bootstrap</h5>
         <div class="card p-1 shadow col-md-6">
             <img src="<?= base_url('images/website/bootstrap-instalasi.jpg') ?>" class="img-fluid" alt="">
         </div>

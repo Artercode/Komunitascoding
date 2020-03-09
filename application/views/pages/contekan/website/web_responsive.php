@@ -39,8 +39,8 @@
         <h5>Hal ini bisa dilakuan karena adanya sistem GRID pada halaman website,</h5>
         <h5>pada umumnya semua framework untuk CSS sudah mengunakan sistem ini,</h5>
         <h5>Kita disini menggunakan bootstrap tentu saja sudah memiliki sistem GRID didalamnya.</h5>
-        <br>
-
+        <br><br>
+        <hr>
         <h5><a href="">Bootstrap - GRID</a></h5>
     </div>
     <!-- ### akhir halaman ### -->

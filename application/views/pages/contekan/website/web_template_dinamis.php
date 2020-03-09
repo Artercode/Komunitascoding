@@ -42,13 +42,12 @@
         <h5>Tidak ada ketentuan pasti, berapa banyak halaman itu akan dipotong, yang terpenting tidak ada bagian yang hilang dan pada saat memangil halaman itu harus berurutan sesuai potongannya.</h5>
         <br>
         <h5>Tujuan dari pemipisahan menjadi beberapa bagian untuk memudahkan kita dalam mengerjakan coding . maka jangan memotong ditengah codingan, wah ini tambah ribet nanti <i class="far fa-grin-beam"></i> .</h5>
-        <h5>Biasanya bagian yang dipisahkan adalah bagian yang tidak banyak berubah, seperti:
-            navbar, sidebar dan footer tergantung dari bentuk website itu sendiri.</h5>
+        <h5>Biasanya dipisahkan berdasarkan kelompok codingannya seperti, navbar, sidebar dan footer tergantung dari bentuk website itu sendiri.</h5>
         <h5>Dengan pemisahan bagian ini maka kita cuman berurusan dengan MAIN yang merupakan halaman utama dari suatu halaman website, hal ini akan sangat memudahkan kita dalam melakukan coding, setidaknya halaman coding jadi lebih pendek dan simpel.</h5>
         <br>
-        <h5>Hasil dari pemotongan semuanya akan ditempatkan dalam views folder</h5>
-        <h5>Buat forder baru dalam forlder views dengan nama templates atau layouts sama aja,kedua nama ini yang biasa digunakan.</h5>
-        <h5>Tempatkan semua bagian yang statis di dalam folder layouts (navbar, sidebar dan footer). dan untuk main tempat kita coding buatkan forder baru lagi dengan nama home atau sesuaikan dengan rencana website kita</h5>
+        <h5>Hasil dari pemotongan semuanya akan ditempatkan dalam folder views,</h5>
+        <h5>Buat forder baru dalam forlder views dengan nama templates atau layouts sama aja, kedua nama ini yang biasa digunakan, untuk menempatkan header,navbar, sidebar dan footer</h5>
+        <h5>Dan untuk main karena jumlahnya banyak, tiap halaman web selalu berbeda maka ditempatkan terpisah dan dikelompokan sesuai kebutuhan.</h5>
         <div class="card p-1 shadow col-md-6">
             <img src="<?= base_url('./images/website/web_template_dinamis.jpg') ?>" class="img-fluid" alt="">
         </div>

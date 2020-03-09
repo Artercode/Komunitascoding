@@ -122,7 +122,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('website/websistim_mvc') ?>" class="nav-link">
+                            <a href="<?= base_url('WEB_mvc') ?>" class="nav-link">
                                 <i class="nav-icon far fa-circle"></i>
                                 <p>MVC</p>
                             </a>

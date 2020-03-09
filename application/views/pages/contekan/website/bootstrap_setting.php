@@ -48,19 +48,14 @@
          ./assets atau assets</h5>
       <h5> Tergantung dari posisi asal file terhadap link awal di bootstrap.</h5>
       <h5>Contoh perubahan link nya:</h5>
-      <h5>&ltlink rel="stylesheet" href="../../assets/dist/css/adminlte.min.css"&gt menjadi</h5>
-      <h5>&ltlink rel="stylesheet" href="./assets/dist/css/adminlte.min.css"&gt dan menambahkan</h5>
-      <h5>&ltlink rel="stylesheet" href="<code>&lt= base_url() ?&gt</code>./assets/dist/css/adminlte.min.css"&gt</h5>
-      <h5>Kita bisa menggunakan base_url karena kits sudah setting di bagian app../autoload.php</h5>
-      <h5>pada baris [92] $autoload['helper'] = array('url', 'form', 'file', 'security');</h5>
-      <h5>selengkapnya bisa lihat di
-         <a href="<?= base_url('codeigniter_setting') ?>" target="_blank">Codeigniter Setting</a> nomor 4</h5>
+      <h5>&ltlink rel="stylesheet" href="../../dist/css/adminlte.min.css"&gt menjadi</h5>
+      <h5>&ltlink rel="stylesheet" href="assets/bootstrap/dist/css/adminlte.min.css"&gt</h5>
       <h5>4. Harus ditambahkan pada semua link di bagian header dan footer nya.</h5>
       <h5>5. Intinya kita harus tetap mengembalikan koneksi antar file seperti pada templates aslinya.</h5>
       <h5>6. Sistem folder dalam website sama persis dengan sistem folder yang ada di FILE MANAGER pada computer kita.</h5>
       <h5>Bila tampilan website sudah rapi dan kembali seperti semula berarti semua link sudah terhubung dengan benar.</h5>
       <br>
-      <h5>Selamat kita sudah berhasil mengintal dan setting bootstrap dengan lengkap.</h5>
+      <h5>Selamat kita sudah berhasil menginstal dan setting bootstrap dengan lengkap.</h5>
    </div>
    <!-- ### akhir halaman ### -->
    <br><br>
