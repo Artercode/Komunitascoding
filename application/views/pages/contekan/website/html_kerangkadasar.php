@@ -43,9 +43,7 @@
         <div class="card p-1 shadow">
             <img src="<?= base_url('images/website/html-kerangka-dasar.jpg') ?>" class="img-fluid" alt="">
         </div>
-        <h5><b><code>VScode key: </code></b>
-            <kbd>! + tab</kbd> atau <kbd>doc + tab</kbd>
-        </h5>
+        <h5><b><code>VScode key: </code></b><kbd>! + tab</kbd> atau <kbd>doc + tab</kbd></h5>
     </div>
     <!-- ### akhir halaman ### -->
     <br><br>

@@ -34,8 +34,10 @@
 
    <!-- ########## halaman ########## -->
    <div class="col-lg-11 mt-n2 container-fluid">
+      <!-- ########## novtaps ############################################################# -->
       <div class="card card-body card-primary card-outline">
          <div class="row">
+            <!-- bagian ulasan -->
             <div class="col-9 col-dm-9">
                <div class="tab-content" id="vert-tabs-right-tabContent">
                   <!-- ilustrasi -->
@@ -95,6 +97,8 @@
                   </div>
                </div>
             </div>
+
+            <!-- bagian taps  -->
             <div class="col-3 col-dm-3">
                <div class="nav flex-column nav-tabs nav-tabs-right h-100" id="vert-tabs-right-tab" role="tablist" aria-orientation="vertical">
                   <!-- ilustrasi -->
@@ -107,6 +111,7 @@
             </div>
          </div>
       </div>
+      <!-- ### akhir navtaps ### -->
    </div>
    <!-- ### akhir halaman ### -->
    <br><br>

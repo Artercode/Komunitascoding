@@ -6,7 +6,7 @@ class Codeigniter_setting extends MY_Controller
    public function index()
    {
       $data['title'] = 'CI Setting';
-      $data['page'] = 'pages/contekan/website/codeigniter_setting';
+      $data['page'] = 'pages/contekan/website/ci_setting';
       return $this->view($data);
    }
 }

@@ -6,7 +6,7 @@ class Codeigniter_instalasi extends MY_Controller
    public function index()
    {
       $data['title'] = 'CI Instalasi';
-      $data['page'] = 'pages/contekan/website/codeigniter_instalasi';
+      $data['page'] = 'pages/contekan/website/ci_instalasi';
       return $this->view($data);
    }
 }
