@@ -31,10 +31,10 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionKepala">
                         <div class="card-body bg-info">
                             <div class="row">
-                                <div class="col-sm-12 col-lg-6 light text-right">
-                                    <p>Komunitas coding merupakan penghubung para coder, guna menemukan patner untuk membentuk sebuah grup coder yang diharapkan akan menjadi awal sebuah start up buat kalian semua.</p>
+                                <div class="col-sm-12 col-lg-6">
+                                    <p class="text-md-right">Komunitas coding merupakan penghubung para coder, guna menemukan patner untuk membentuk sebuah grup coder yang diharapkan akan menjadi awal sebuah start up buat kalian semua.</p>
                                 </div>
-                                <div class="col-sm-12 col-lg-6 light">
+                                <div class="col-sm-12 col-lg-6">
                                     <p>Komunitas coding merupakan tempat untuk berkomunikasi, komunikasi merupakan hal yang sangat penting dalam kehidupan, melalui komunikasi dengan orang lain maka anda sudah 80% sukses.</p>
                                 </div>
                             </div>
