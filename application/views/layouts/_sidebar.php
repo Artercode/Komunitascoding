@@ -21,7 +21,7 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- ########## selamat datang ########## -->
-                <li class="nav-item has-treeview menu-open">
+                <li class="nav-item has-treeview menu-close">
                     <a href="" class="nav-link active">
                         <i class="nav-icon fas fa-child"></i>
                         <p>Selamat Datang<i class="right fas fa-angle-left"></i></p>
@@ -55,14 +55,14 @@
                     </a>
                 </li>
                 <!-- ########## aula ########## -->
-                <li class="nav-item has-treeview menu-close">
+                <li class="nav-item has-treeview menu-open">
                     <a href="<?= base_url('/') ?>" class="nav-link active">
                         <i class="nav-icon fas fa-chair"></i>
                         <p>Aula<i class="right fas fa-angle-left"></i></p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="" class="nav-link active">
+                            <a href="" class="nav-link">
                                 <i class="nav-icon fas fa-question"></i>
                                 <p>Tanya</p>
                             </a>
@@ -70,7 +70,7 @@
                     </ul>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="" class="nav-link active">
+                            <a href="<?= base_url('aula_projek') ?>" class="nav-link active">
                                 <i class="nav-icon fas fa-project-diagram"></i>
                                 <p>Projek</p>
                             </a>
@@ -78,7 +78,7 @@
                     </ul>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="" class="nav-link active">
+                            <a href="" class="nav-link">
                                 <i class="nav-icon fas fa-users-cog"></i>
                                 <p>Grup</p>
                             </a>
