@@ -8,8 +8,8 @@
         <!-- ########## komunitascoding ########## -->
         <div class="row">
             <div class="col mt-2 text-center">
-                <h1 class="">KomunitascodinG</h1>
-                <h3 class="mb-3">Sedang dikembangkan</h3>
+                <h1 class="">Komunitas codinG</h1>
+                <h3 class="mb-3">Selalu dikembangkan</h3>
             </div>
         </div>
         <!-- ### akhir komunitascoding ### -->

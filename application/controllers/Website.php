@@ -9,4 +9,11 @@ class Website extends MY_Controller
         $data['page'] = 'pages/contekan/website/index';
         return $this->view($data);
     }
+
+    public function if()
+    {
+        $data['title'] = 'IF syntak';
+        $data['page'] = 'pages/contekan/website/if';
+        return $this->view($data);
+    }
 }

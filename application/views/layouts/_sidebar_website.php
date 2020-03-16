@@ -128,6 +128,12 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
+                     <a href="<?= base_url('Website/IF') ?>" class="nav-link">
+                        <i class="nav-icon far fa-circle"></i>
+                        <p>IF</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
                      <a href="<?= base_url('WEB_responsive') ?>" class="nav-link">
                         <i class="nav-icon far fa-circle"></i>
                         <p>Web Responsive</p>

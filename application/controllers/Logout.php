@@ -1,10 +1,7 @@
-<?php
-
-defined('BASEPATH') or exit('No direct script access allowed');
+<?php defined('BASEPATH') or exit('No direct script access allowed');
 
 class Logout extends MY_Controller
 {
-
     public function index()
     {
         // menentukan data session apa saja yang akan dihapus (sesuai key data di tabel user)
