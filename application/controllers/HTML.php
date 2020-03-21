@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class HTML_kerangka_dasar extends MY_Controller
+class HTML extends MY_Controller
 {
-   public function index()
+   public function Kerangka_dasar()
    {
       $data['title'] = 'Note';
-      $data['page']  = 'pages/contekan/website/html_kerangkadasar';
+      $data['page']  = 'pages/website/html/kerangka_dasar';
 
       return $this->view($data);
    }

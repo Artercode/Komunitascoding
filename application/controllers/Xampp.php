@@ -6,7 +6,7 @@ class Xampp extends MY_Controller
    public function index()
    {
       $data['title'] = 'Xampp';
-      $data['page']  = 'pages/contekan/website/xampp';
+      $data['page']  = 'pages/website/xampp';
       return $this->view($data);
    }
 }

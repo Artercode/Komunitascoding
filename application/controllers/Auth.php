@@ -15,7 +15,7 @@ class Auth extends MY_Controller
 		if (!$this->auth->validateLogin()) {
 			$data['title'] = 'login';
 			$data['input'] = $input;
-			$data['page'] 	= 'pages/auth/login';
+			$data['page'] 	= 'auth/login';
 			return $this->view($data);
 		}
 		// jika validasi berhasil - alert untuk prosess login berhasil maka.. jika gagal..
@@ -40,7 +40,7 @@ class Auth extends MY_Controller
 		if (!$this->auth->validateRegister()) {
 			$data['title']  = 'Register';
 			$data['input']  = $input;
-			$data['page']   = 'pages/auth/register';
+			$data['page']   = 'auth/register';
 			$this->view($data);
 			return;
 		}

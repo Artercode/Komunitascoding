@@ -56,7 +56,7 @@
                      <h5>Pada akhirnya semuanya tergantung kita sendiri untuk memilih dipisahkan atau tetap jadi 1, pilih mana yang lebih memudahkan kita, semuanya dapat berjalan asalkan gak salah coding aja <i class="far fa-grin-beam"></i></h5>
                      <br>
                      <hr>
-                     <h5><a href="<?= base_url('codeigniter_core') ?>">Codeigniter - core</a></h5>
+                     <h5><a href="<?= base_url('codeigniter/core') ?>">Codeigniter - core</a></h5>
                   </div>
                   <!-- controller -->
                   <div class="tab-pane fade" id="vert-tabs-right-controller" role="tabpanel" aria-labelledby="vert-tabs-right-controller-tab">

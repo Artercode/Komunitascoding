@@ -26,13 +26,13 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('VScode_Instalasi') ?>" class="nav-link">
+                     <a href="<?= base_url('VScode/Instalasi') ?>" class="nav-link">
                         <i class="nav-icon far fa-circle"></i>
                         <p>VScode - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('VScode_Extension') ?>" class="nav-link">
+                     <a href="<?= base_url('VScode/Extension') ?>" class="nav-link">
                         <i class="nav-icon far fa-circle"></i>
                         <p>VScode - Extensions</p>
                      </a>
@@ -47,13 +47,13 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('HTML_kerangka_dasar') ?>" class="nav-link">
+                     <a href="<?= base_url('HTML/Kerangka_Dasar') ?>" class="nav-link">
                         <i class="nav-icon fas fa-code"></i>
                         <p>HTML - Kerangka Dasar</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('') ?>" class="nav-link">
+                     <a href="" class="nav-link">
                         <i class="nav-icon fas fa-code"></i>
                         <p>HTML - </p>
                      </a>
@@ -68,25 +68,31 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter_Instalasi') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/Instalasi') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
                         <p>Codeigniter - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter_Setting') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/Setting') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
                         <p>Codeigniter - Setting</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter_MVC') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/URL_URI') ?>" class="nav-link">
+                        <i class="nav-icon fab fa-free-code-camp"></i>
+                        <p>Codeigniter - URL & URI</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('Codeigniter/MVC') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
                         <p>Codeigniter - MVC</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter_CRUD') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/CRUD') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
                         <p>Codeigniter - CRUD</p>
                      </a>
@@ -101,19 +107,19 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('Bootstrap_Instalasi') ?>" class="nav-link">
+                     <a href="<?= base_url('Bootstrap/Instalasi') ?>" class="nav-link">
                         <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Bootstrap_Setting') ?>" class="nav-link">
+                     <a href="<?= base_url('Bootstrap/Setting') ?>" class="nav-link">
                         <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - Setting</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Bootstrap_GRID_Layout') ?>" class="nav-link">
+                     <a href="<?= base_url('Bootstrap/GRID_Layout') ?>" class="nav-link">
                         <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - GRID & Layout</p>
                      </a>
@@ -134,26 +140,25 @@
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('WEB_responsive') ?>" class="nav-link">
+                     <a href="<?= base_url('Website/Responsive') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>Web Responsive</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('WEB_template_dinamis') ?>" class="nav-link">
+                     <a href="<?= base_url('Website/Template_Dinamis') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>Tamplate Dinamis</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('website/Session_Cookies') ?>" class="nav-link">
+                     <a href="<?= base_url('Website/Session_Cookies') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>Sesssion & Cookies</p>
                      </a>
                   </li>
                </ul>
             </li>
-
 
 
          </ul>

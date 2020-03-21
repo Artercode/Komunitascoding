@@ -21,7 +21,7 @@ class Menu extends MY_Controller
 	{
 		$data['title']      = 'Menu';
 		$data['content']    = $this->menu->where('id', $this->id)->first();
-		$data['page']       = 'pages/auth/menu';
+		$data['page']       = 'auth/menu';
 		return $this->view($data);
 	}
 
