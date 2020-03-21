@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="<?= base_url() ?>assets/lte/plugins/summernote/summernote-bs4.css">
 	<!-- Google Font: Source Sans Pro -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<!-- My css -->
+	<link rel="stylesheet" href="<?= base_url() ?>assets/style.css">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -45,7 +47,7 @@
 		<!-- akhir content home -->
 
 		<footer class="main-footer">
-			051119 Bebas dicontek &copy; 2019-<?= date('Y') ?> Komunitascoding. <strong><a href="https://github.com/Artercode/komunitascoding" target="_black" class="ml-1"><i class="fab fa-fw fa-github"></i> Github</a></strong>
+			051119 Bebas dicontek &copy; 2019-<?= date('Y') ?> KomunitascodinG. <strong><a href="https://github.com/Artercode/komunitascoding" target="_black" class="ml-1"><i class="fab fa-fw fa-github"></i> Github</a></strong>
 			<div class="float-right d-none d-sm-inline-block">
 				<b>Version</b> 3.0.2
 			</div>

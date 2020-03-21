@@ -28,7 +28,7 @@
                   <br>
                   <h6>Rencana update:</h6>
                   <h6>-bagian tanya jawab/diskusi.</h6>
-                  <h6>-notivikasi bila ada balasan diskusi</h6>
+                  <h6>-notifikasi bila ada balasan diskusi</h6>
                </div>
             </div>
             <!-- akhir info -->

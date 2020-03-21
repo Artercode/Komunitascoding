@@ -20,7 +20,7 @@ class Projek extends MY_Controller
    public function index()
    {
       $data['title']      = 'Projek';
-      $data['page']       = 'pages/auth/profile/projek';
+      $data['page']       = 'pages/auth/user/projek';
 
       return $this->view($data);
    }

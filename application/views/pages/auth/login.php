@@ -9,25 +9,25 @@
 			<div class="card-body login-card-body">
 				<h5 class="login-box-msg"><i class="fas fa-fw fa-child"></i> Selamat Datang</h5>
 
-				<?= form_open('login', ['method' => 'POST']) ?>
+				<?= form_open('auth/login', ['method' => 'POST']) ?>
 				<div class="input-group mb-3">
-					<?= form_input(['type' => 'email', 'name' => 'email', 'value' => $input->email, 'class' => 'form-control', 'placeholder' => 'Isi alamat email', 'required' => true]) ?>
-					<?= form_error('email') ?>
+					<?= form_input(['type' => 'email', 'name' => 'email', 'value' => $input->email, 'class' => 'form-control', 'placeholder' => 'Isi alamat email']) ?>
 					<div class="input-group-append">
 						<div class="input-group-text">
 							<span class="fas fa-envelope"></span>
 						</div>
 					</div>
 				</div>
+				<?= form_error('email') ?>
 				<div class="input-group mb-3">
-					<?= form_password('password', '', ['class' => 'form-control', 'placeholder' => 'Isi password', 'required' => true]) ?>
-					<?= form_error('password') ?>
+					<?= form_password('password', '', ['class' => 'form-control', 'placeholder' => 'Isi password']) ?>
 					<div class="input-group-append">
 						<div class="input-group-text">
 							<span class="fas fa-lock"></span>
 						</div>
 					</div>
 				</div>
+				<?= form_error('password') ?>
 				<div class="row">
 					<div class="col-12">
 						<button type="submit" class="btn btn-primary btn-block">Login</button>

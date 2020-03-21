@@ -21,27 +21,21 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= base_url('role') ?>" class="nav-link">
+                            <a href="<?= base_url('role_menu_access') ?>" class="nav-link">
                                 <i class="mx-1 fas fa-fw fa-user-lock"></i>
-                                <p>Role</p>
+                                <p>Role & Menu Akses</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="./index2.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Menu</p>
+                                <p>Menu & Submenu</p>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./index3.html" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Submenu</p>
-                            </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a href="./index3.html" class="nav-link">
                                 <i class="mx-1 far fa-fw fa-user-circle"></i>
-                                <p>Tabel Anggota R2</p>
+                                <p>Tabel Admin</p>
                             </a>
                         </li>
                     </ul>
@@ -77,7 +71,7 @@
                         <li class="nav-item">
                             <a href="./index2.html" class="nav-link">
                                 <i class="mx-1 far fa-fw fa-user-circle"></i>
-                                <p>Tabel Anggota R1</p>
+                                <p>Tabel User</p>
                             </a>
                         </li>
                     </ul>
@@ -87,13 +81,13 @@
                     <a href="#" class="nav-link active">
                         <i class="mx-1 far fa-fw fa-user-circle"></i>
                         <p>
-                            Anggota
+                            User
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?= base_url('profile') ?>" class="nav-link active">
+                            <a href="<?= base_url('user') ?>" class="nav-link active">
                                 <i class="mx-1 far fa-fw fa-id-badge"></i>
                                 <p>Profil</p>
                             </a>

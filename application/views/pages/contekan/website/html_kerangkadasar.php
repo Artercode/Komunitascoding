@@ -44,10 +44,13 @@
             <img src="<?= base_url('images/website/html-kerangka-dasar.jpg') ?>" class="img-fluid" alt="">
         </div>
         <h5><b><code>VScode key: </code></b><kbd>! + tab</kbd> atau <kbd>doc + tab</kbd></h5>
+        <br><br>
+        <hr>
+        <a href="https://www.youtube.com/watch?v=3U1AhjEf7DM" target="_blank">Belajar HTML & CSS untuk PEMULA - Full Lengkap</a> - Aden Rahmandi -
     </div>
     <!-- ### akhir halaman ### -->
     <br><br>
-    <a id=" back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
         <i class="fas fa-chevron-up"></i>
     </a>
 </div>

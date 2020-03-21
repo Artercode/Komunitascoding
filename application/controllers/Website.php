@@ -16,4 +16,11 @@ class Website extends MY_Controller
         $data['page'] = 'pages/contekan/website/if';
         return $this->view($data);
     }
+
+    public function session_cookies()
+    {
+        $data['title'] = 'Session';
+        $data['page'] = 'pages/contekan/website/session_cookies';
+        return $this->view($data);
+    }
 }

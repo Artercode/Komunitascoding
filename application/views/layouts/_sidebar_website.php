@@ -96,25 +96,25 @@
             <!-- bootstrap -->
             <li class="nav-item has-treeview">
                <a href="" class="nav-link active">
-                  <i class="nav-icon fab fa-bootstrap"></i>
+                  <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                   <p>Bootstrap<i class="right fas fa-angle-left"></i></p>
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
                      <a href="<?= base_url('Bootstrap_Instalasi') ?>" class="nav-link">
-                        <i class="nav-icon fab fa-bootstrap"></i>
+                        <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Bootstrap_Setting') ?>" class="nav-link">
-                        <i class="nav-icon fab fa-bootstrap"></i>
+                        <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - Setting</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Bootstrap_GRID_Layout') ?>" class="nav-link">
-                        <i class="nav-icon fab fa-bootstrap"></i>
+                        <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
                         <p>Bootstrap - GRID & Layout</p>
                      </a>
                   </li>
@@ -123,26 +123,32 @@
             <!-- web sistem -->
             <li class="nav-item has-treeview">
                <a href="" class="nav-link active">
-                  <i class="nav-icon fas fa-cogs"></i>
+                  <i class="nav-icon fas fa-fw fa-cogs"></i>
                   <p>Web Sistem<i class="right fas fa-angle-left"></i></p>
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
                      <a href="<?= base_url('Website/IF') ?>" class="nav-link">
-                        <i class="nav-icon far fa-circle"></i>
+                        <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>IF</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('WEB_responsive') ?>" class="nav-link">
-                        <i class="nav-icon far fa-circle"></i>
+                        <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>Web Responsive</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('WEB_template_dinamis') ?>" class="nav-link">
-                        <i class="nav-icon far fa-circle"></i>
+                        <i class="nav-icon far fa-fw fa-circle"></i>
                         <p>Tamplate Dinamis</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('website/Session_Cookies') ?>" class="nav-link">
+                        <i class="nav-icon far fa-fw fa-circle"></i>
+                        <p>Sesssion & Cookies</p>
                      </a>
                   </li>
                </ul>
