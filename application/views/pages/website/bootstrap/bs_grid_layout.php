@@ -42,30 +42,22 @@
             <div class="col-9 col-dm-9">
                <div class="tab-content" id="vert-tabs-right-tabContent">
                   <!-- intro -->
-                  <div class="tab-pane fade show active" id="vert-tabs-right-intro" role="tabpanel" aria-labelledby="vert-tabs-right-intro-tab">
-                     <section>
-                        <h5>Guna mempermudah pengaturan tampilan website, haya ada 2 macam:</h5>
-                        <h5>1. ROW : seperti baris- baris yang tersusun dari atas ke bawah layar monitor, bisa dibilang gak terbatas sepanjang website yang kita inginkan</h5>
-                        <h5>2. COLUNM : Selebar layar monitor. Standart yang biasa digunakan di website.</h5>
-                        <h5>Sudah jadi kebiasaan aja, kalau melebihi lebar layar monitor malah dibilang webnya berantakan. <i class="far fa-grin-beam"></i> lagian nanti kita susah cari mouse yang bisa scroll ke kanan. <i class="far fa-grin-beam"></i></h5>
-                        <h5>Kita bisa mengkombinasikan antara row dan col sesuai kebutuhan kita.</h5>
-
-
-                     </section>
+                  <div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
+                     <h5>Guna mempermudah pengaturan tampilan website, haya ada 2 macam:</h5>
+                     <h5>1. ROW : seperti baris- baris yang tersusun dari atas ke bawah layar monitor, bisa dibilang gak terbatas sepanjang website yang kita inginkan</h5>
+                     <h5>2. COLUNM : Selebar layar monitor. Standart yang biasa digunakan di website.</h5>
+                     <h5>Sudah jadi kebiasaan aja, kalau melebihi lebar layar monitor malah dibilang webnya berantakan. <i class="far fa-grin-beam"></i> lagian nanti kita susah cari mouse yang bisa scroll ke kanan. <i class="far fa-grin-beam"></i></h5>
+                     <h5>Kita bisa mengkombinasikan antara row dan col sesuai kebutuhan kita.</h5>
                   </div>
                   <!-- grid -->
-                  <div class="tab-pane fade" id="vert-tabs-right-grid" role="tabpanel" aria-labelledby="vert-tabs-right-grid-tab">
-                     <section class="container col mt-n2">
-                        <h5>1. Pakem</h5>
+                  <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
+                     <h5>1. Pakem</h5>
 
-                     </section>
                   </div>
                   <!-- layout -->
-                  <div class="tab-pane fade" id="vert-tabs-right-layout" role="tabpanel" aria-labelledby="vert-tabs-right-layout-tab">
-                     <section class="container col mt-n2">
-                        <h5>1. Pakem</h5>
+                  <div class="tab-pane fade" id="vert-tabs-right-3" role="tabpanel" aria-labelledby="vert-tabs-right-3-tab">
+                     <h5>1. Pakem</h5>
 
-                     </section>
                   </div>
                   <br><br>
                </div>
@@ -75,11 +67,11 @@
             <div class="col-3 col-dm-3">
                <div class="nav flex-column nav-tabs nav-tabs-right h-100" id="vert-tabs-right-tab" role="tablist" aria-orientation="vertical">
                   <!-- intro -->
-                  <a class="nav-link active" id="vert-tabs-right-intro-tab" data-toggle="pill" href="#vert-tabs-right-intro" role="tab" aria-controls="vert-tabs-right-intro" aria-selected="false">Intro</a>
+                  <a class="nav-link active" id="vert-tabs-right-1-tab" data-toggle="pill" href="#vert-tabs-right-1" role="tab" aria-controls="vert-tabs-right-1" aria-selected="false">Intro</a>
                   <!-- grid -->
-                  <a class="nav-link" id="vert-tabs-right-grid-tab" data-toggle="pill" href="#vert-tabs-right-grid" role="tab" aria-controls="vert-tabs-right-controller" aria-selected="false">Grid</a>
+                  <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Grid</a>
                   <!-- layout -->
-                  <a class="nav-link" id="vert-tabs-right-layout-tab" data-toggle="pill" href="#vert-tabs-right-layout" role="tab" aria-controls="vert-tabs-right-layout" aria-selected="false">Layout</a>
+                  <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Layout</a>
                </div>
             </div>
          </div>

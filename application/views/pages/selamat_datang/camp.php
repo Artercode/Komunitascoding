@@ -28,8 +28,9 @@
    <!-- ### akhir judul ### -->
 
    <!-- ########## halaman ########## -->
-   <div class="ml-3 mt-n2 col-lg-11 container-fluid">
+   <div class="mt-n2 col-lg-11 container-fluid">
       <div class="row">
+         <!-- kediri -->
          <div class="col-lg-6 col-md-12 ">
             <div class="card card-indigo">
                <!-- kepala -->
@@ -50,6 +51,28 @@
                </div>
             </div>
          </div>
+         <!-- akhir kediri -->
+         <!-- umum -->
+         <div class="col-lg-6 col-md-12 ">
+            <div class="card card-pink">
+               <!-- kepala -->
+               <div class="card-header">
+                  <h3 class="card-title"><i class="fas fa-fw fa-campground"></i> Camp Baru</h3>
+                  <div class="card-tools">
+                     <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-fw fa-minus"></i>
+                     </button>
+                  </div>
+               </div>
+               <!-- badan -->
+               <div class="card-body">
+                  <h6>Bagi siapa saja yang ingin membuat komunitas di daerah masing-masing</h6>
+                  <h6>Dipersilahkan - Gratis - 0 rupiah</h6>
+                  <h6>Kami akan dukung fasilitas website - kita bisa pakai bersama website ini.</h6>
+                  <h5 class="mr-3">Kontak : <i class="fab fa-telegram"></i></i> +62 813 9504 5438 - Arter </h5>
+               </div>
+            </div>
+         </div>
+         <!-- akhir umum -->
       </div>
       <!-- ### akhir halaman ### -->
    </div>

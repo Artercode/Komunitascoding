@@ -10,13 +10,6 @@ class Bootstrap extends MY_Controller
       return $this->view($data);
    }
 
-   public function setting()
-   {
-      $data['title'] = 'BS Setting';
-      $data['page']  = 'pages/website/bootstrap/bs_setting';
-      return $this->view($data);
-   }
-
    public function grid_layout()
    {
       $data['title'] = 'BS GRID Layout';

@@ -68,39 +68,33 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter/Instalasi') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/Instalasi_Setting') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - Instalasi</p>
+                        <p>CI - Instalasi & Setting</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter/Setting') ?>" class="nav-link">
+                     <a href="<?= base_url('Codeigniter/Url_Uri') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - Setting</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('Codeigniter/URL_URI') ?>" class="nav-link">
-                        <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - URL & URI</p>
+                        <p>CI - Url & Uri</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Codeigniter/MVC') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - MVC</p>
+                        <p>CI - MVC</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Codeigniter/CRUD') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - CRUD</p>
+                        <p>CI - CRUD</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Codeigniter/Database') ?>" class="nav-link">
                         <i class="nav-icon fab fa-free-code-camp"></i>
-                        <p>Codeigniter - Database</p>
+                        <p>CI - Database</p>
                      </a>
                   </li>
                </ul>
@@ -115,28 +109,22 @@
                   <li class="nav-item">
                      <a href="<?= base_url('Bootstrap/Instalasi') ?>" class="nav-link">
                         <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
-                        <p>Bootstrap - Instalasi</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('Bootstrap/Setting') ?>" class="nav-link">
-                        <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
-                        <p>Bootstrap - Setting</p>
+                        <p>BS - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Bootstrap/GRID_Layout') ?>" class="nav-link">
                         <i class="nav-icon fab  fa-fw fa-bootstrap"></i>
-                        <p>Bootstrap - GRID & Layout</p>
+                        <p>BS - GRID & Layout</p>
                      </a>
                   </li>
                </ul>
             </li>
-            <!-- web sistem -->
+            <!-- gado gado -->
             <li class="nav-item has-treeview">
                <a href="" class="nav-link active">
                   <i class="nav-icon fas fa-fw fa-cogs"></i>
-                  <p>Web Sistem<i class="right fas fa-angle-left"></i></p>
+                  <p>Gado Gado<i class="right fas fa-angle-left"></i></p>
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
@@ -148,13 +136,13 @@
                   <li class="nav-item">
                      <a href="<?= base_url('Website/Responsive') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
-                        <p>Web Responsive</p>
+                        <p>Responsive</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('Website/Template_Dinamis') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
-                        <p>Tamplate Dinamis</p>
+                        <p>Template & Link Dinamis</p>
                      </a>
                   </li>
                   <li class="nav-item">

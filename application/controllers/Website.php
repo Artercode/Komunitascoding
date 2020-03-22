@@ -20,14 +20,14 @@ class Website extends MY_Controller
 	public function responsive()
 	{
 		$data['title'] = 'Responsive';
-		$data['page'] = 'pages/website/gadogado/web_responsive';
+		$data['page'] = 'pages/website/gadogado/responsive';
 		return $this->view($data);
 	}
 
 	public function template_dinamis()
 	{
 		$data['title'] = 'Template Dinamis';
-		$data['page'] = 'pages/website/gadogado/web_template_dinamis';
+		$data['page'] = 'pages/website/gadogado/template_dinamis';
 		return $this->view($data);
 	}
 

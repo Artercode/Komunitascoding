@@ -35,10 +35,14 @@
 
 	<!-- ########## halaman ########## -->
 	<div class="ml-3 mt-n2 col-lg-11 container-fluid">
-		<h5>Untuk membuat website kami sudah urutkan semuanya,</h5>
-		<h5>termasuk kebutuhan program apa saja yang dibutuhkan.</h5>
-		<h5>Ikuti saja bagian sidebar yang di sebelah kiri, </h5>
-		<h5>bila masih ada kekurangan laporkan akan kami tambahkan segera.</h5>
+		<h5>Untuk tutorial website kami sudah urutkan semuanya,</h5>
+		<h5>termasuk kebutuhan program apa saja yang digunakan.</h5>
+		<h5>Ikuti saja bagian sidebar yang di sebelah kiri. </h5>
+		<br>
+		<h5>Semua yang kami tuliskan dalam sidebar juga kami terapkan untuk website ini, </h5>
+		<h5>bisa dilihat di <strong><a href="https://github.com/Artercode/komunitascoding" target="_black" class="ml-1"><i class="fab fa-fw fa-github"></i> Github</a></strong> atau di bagian footer.</h5>
+		<br>
+		<h5>Bila masih ada kekurangan laporkan akan kami perbaiki segera.</h5>
 		<h5>Terima kasih atas dukungan dari para anggota yang telah berbagi,</h5>
 		<h5>Semoga bermanfaat untuk kita semua,</h5>
 		<br>

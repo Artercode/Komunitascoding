@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class HTML extends MY_Controller
+class Html extends MY_Controller
 {
    public function Kerangka_dasar()
    {

@@ -3,10 +3,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Codeigniter extends MY_Controller
 {
-   public function instalasi()
+   public function instalasi_setting()
    {
-      $data['title'] = 'CI Instalasi';
-      $data['page'] = 'pages/website/codeigniter/ci_instalasi';
+      $data['title'] = 'CI Instalasi & Setting';
+      $data['page'] = 'pages/website/codeigniter/ci_instalasi_setting';
       return $this->view($data);
    }
 

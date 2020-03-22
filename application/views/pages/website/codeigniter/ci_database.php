@@ -42,7 +42,7 @@
             <div class="col-9 col-dm-9">
                <div class="tab-content" id="vert-tabs-right-tabContent">
                   <!-- intro -->
-                  <div class="tab-pane fade show active" id="vert-tabs-right-intro" role="tabpanel" aria-labelledby="vert-tabs-right-intro-tab">
+                  <div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
                      <h5>Untuk penyimpanan database dilakuan oleh phpMyAdmin, jika kita menggunakan <a href="<?= base_url('xampp') ?>" target="_blank">Xampp</a> phpMyAdmin sudah ada didalamnya tinggal pakai.</h5>
                      <h5>Semua data dalam phpMyAdmin di simpan dalam bentuk tabel.</h5>
                      <h5>Untuk pengelolaan data kita gunakan dengan cara <a href="<?= base_url('codeigniter/crud') ?>" target="_blank">CRUD</a>, yang biasanya ditempatkan di bagian folder models sesuai dengan sistim <a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">MVC</a></h5>
@@ -68,19 +68,15 @@
                         </tr>
                      </table>
                   </div>
-                  <!-- grid -->
-                  <div class="tab-pane fade" id="vert-tabs-right-grid" role="tabpanel" aria-labelledby="vert-tabs-right-grid-tab">
-                     <section class="container col mt-n2">
-                        <h5>1. Pakem</h5>
+                  <!-- jumlah data -->
+                  <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
+                     <h5>1. Pakem</h5>
 
-                     </section>
                   </div>
-                  <!-- layout -->
-                  <div class="tab-pane fade" id="vert-tabs-right-layout" role="tabpanel" aria-labelledby="vert-tabs-right-layout-tab">
-                     <section class="container col mt-n2">
-                        <h5>1. Pakem</h5>
+                  <!-- jenis data -->
+                  <div class="tab-pane fade" id="vert-tabs-right-3" role="tabpanel" aria-labelledby="vert-tabs-right-3-tab">
+                     <h5>1. Pakem</h5>
 
-                     </section>
                   </div>
                   <br><br>
                </div>
@@ -90,11 +86,11 @@
             <div class="col-3 col-dm-3">
                <div class="nav flex-column nav-tabs nav-tabs-right h-100" id="vert-tabs-right-tab" role="tablist" aria-orientation="vertical">
                   <!-- intro -->
-                  <a class="nav-link active" id="vert-tabs-right-intro-tab" data-toggle="pill" href="#vert-tabs-right-intro" role="tab" aria-controls="vert-tabs-right-intro" aria-selected="false">Intro</a>
-                  <!-- grid -->
-                  <a class="nav-link" id="vert-tabs-right-grid-tab" data-toggle="pill" href="#vert-tabs-right-grid" role="tab" aria-controls="vert-tabs-right-controller" aria-selected="false">Jumlah Data</a>
-                  <!-- layout -->
-                  <a class="nav-link" id="vert-tabs-right-layout-tab" data-toggle="pill" href="#vert-tabs-right-layout" role="tab" aria-controls="vert-tabs-right-layout" aria-selected="false">Jenis Data</a>
+                  <a class="nav-link active" id="vert-tabs-right-1-tab" data-toggle="pill" href="#vert-tabs-right-1" role="tab" aria-controls="vert-tabs-right-1" aria-selected="false">Intro</a>
+                  <!-- junlah data -->
+                  <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Jumlah Data</a>
+                  <!-- Jenis data -->
+                  <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Jenis Data</a>
                </div>
             </div>
          </div>

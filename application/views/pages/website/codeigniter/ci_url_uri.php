@@ -9,7 +9,7 @@
       <div class="container-fluid">
          <div class="row mx-1">
             <div class="col-sm-6">
-               <h3 class="font-weight-bold text-gray"><i class="fab fa-free-code-camp"></i> Codeigniter URL & URI</h3>
+               <h3 class="font-weight-bold text-gray"><i class="fab fa-free-code-camp"></i> Codeigniter Url & Uri</h3>
             </div>
             <!-- info -->
             <div class="h2 col-sm-6">
@@ -41,8 +41,8 @@
             <!-- bagian ulasan -->
             <div class="col-9 col-dm-9">
                <div class="tab-content" id="vert-tabs-right-tabContent">
-                  <!-- intro -->
-                  <div class="tab-pane fade show active" id="vert-tabs-right-intro" role="tabpanel" aria-labelledby="vert-tabs-right-intro-tab">
+                  <!-- url friendly -->
+                  <div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
                      <h5>Pada dasarnya Ci berorientasi terhadap url, dengan demikian kita dapat mengatur tampilan url sesuai kebutuhan kita.</h5>
                      <h5>Standart CI : http://url/uri/segment1/segment2/segment3/</h5>
                      <h5>- Url = tempat nama domain : http://komunitascoding.com/uri/segment1/segment2/segment3/</h5>
@@ -56,16 +56,12 @@
                      <h5><a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">Codeigniter - MVC/View</a></h5>
                   </div>
                   <!-- controller -->
-                  <!-- <div class="tab-pane fade" id="vert-tabs-right-controller" role="tabpanel" aria-labelledby="vert-tabs-right-controller-tab">
-                     <section class="container col mt-n2">
+                  <!-- <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
 
-                     </section>
                   </div> -->
                   <!-- model -->
-                  <!-- <div class="tab-pane fade" id="vert-tabs-right-model" role="tabpanel" aria-labelledby="vert-tabs-right-model-tab">
-                     <section class="container col mt-n2">
+                  <!-- <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
 
-                     </section>
                   </div> -->
                   <br><br>
                </div>
@@ -74,12 +70,12 @@
             <!-- bagian taps  -->
             <div class="col-3 col-dm-3">
                <div class="nav flex-column nav-tabs nav-tabs-right h-100" id="vert-tabs-right-tab" role="tablist" aria-orientation="vertical">
-                  <!-- intro -->
-                  <a class="nav-link active" id="vert-tabs-right-intro-tab" data-toggle="pill" href="#vert-tabs-right-intro" role="tab" aria-controls="vert-tabs-right-intro" aria-selected="false">Intro</a>
+                  <!-- url friendly -->
+                  <a class="nav-link active" id="vert-tabs-right-1-tab" data-toggle="pill" href="#vert-tabs-right-1" role="tab" aria-controls="vert-tabs-right-1" aria-selected="false">Url friendly</a>
                   <!-- controller -->
-                  <!-- <a class="nav-link" id="vert-tabs-right-controller-tab" data-toggle="pill" href="#vert-tabs-right-controller" role="tab" aria-controls="vert-tabs-right-controller" aria-selected="false"></a> -->
+                  <!-- <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false"></a> -->
                   <!-- model -->
-                  <!-- <a class="nav-link" id="vert-tabs-right-model-tab" data-toggle="pill" href="#vert-tabs-right-model" role="tab" aria-controls="vert-tabs-right-model" aria-selected="false"></a> -->
+                  <!-- <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false"></a> -->
                </div>
             </div>
          </div>
