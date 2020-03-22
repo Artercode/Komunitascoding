@@ -97,6 +97,12 @@
                         <p>Codeigniter - CRUD</p>
                      </a>
                   </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('Codeigniter/Database') ?>" class="nav-link">
+                        <i class="nav-icon fab fa-free-code-camp"></i>
+                        <p>Codeigniter - Database</p>
+                     </a>
+                  </li>
                </ul>
             </li>
             <!-- bootstrap -->

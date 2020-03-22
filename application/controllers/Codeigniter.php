@@ -37,4 +37,11 @@ class Codeigniter extends MY_Controller
       $data['page'] = 'pages/website/codeigniter/ci_crud';
       return $this->view($data);
    }
+
+   public function database()
+   {
+      $data['title'] = 'CI Database';
+      $data['page'] = 'pages/website/codeigniter/ci_database';
+      return $this->view($data);
+   }
 }
