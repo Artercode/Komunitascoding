@@ -27,7 +27,7 @@
 						</button>
 					</div>
 				</div>
-				<!-- ulasan pertama -->
+				<!-- ulasan selayang pandang -->
 				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionKepala">
 					<div class="card-body bg-info">
 						<div class="row">
@@ -53,7 +53,7 @@
 						</button>
 					</div>
 				</div>
-				<!-- ulasan bagian kedua -->
+				<!-- ulasan ilustrasi -->
 				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionKepala">
 					<div class="card-body bg-info">
 						<div class="row">
@@ -81,7 +81,7 @@
 								Pasti kalian bertanya soal logika dalam pengcodingan, <br>
 								logika akan terbentuk dengan sendirinya apabila kalian sudah paham
 								soal pola pikir. <br><br>
-								<a type="submit" class="btn btn-primary float-right" href="<?= base_url('note') ?>">Siap untuk mempelajari Pola Pikir </a>
+								<a type="submit" class="btn btn-primary float-right" href="<?= base_url('selamat_datang/note') ?>">Siap untuk mempelajari Pola Pikir </a>
 							</div>
 						</div>
 					</div>

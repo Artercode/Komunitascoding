@@ -56,11 +56,11 @@
 		<div class="card p-1 shadow col-md-6">
 			<img src="<?= base_url('images/website/bootstrap-instalasi.jpg') ?>" class="img-fluid" alt="">
 		</div>
-		<h5>5. Untuk setting Link Dinamis baca <a href="<?= base_url('website/gadogado/template_dinamis') ?>" target="_blank">Template Dinamis</a></h5>
+		<h5>5. Untuk setting Link Dinamis baca <a href="<?= base_url('website/template_dinamis') ?>" target="_blank">Template Dinamis</a></h5>
 		<h5>5. CI-BS siap digunakan.</h5>
 		<br><br>
 		<hr>
-		<h5><a href="<?= base_url('website/gadogado/template_dinamis') ?>" target="_blank">Template Dinamis</a></h5>
+		<h5><a href="<?= base_url('website/template_dinamis') ?>" target="_blank">Template Dinamis</a></h5>
 	</div>
 	<!-- ### akhir halaman ### -->
 	<br><br>

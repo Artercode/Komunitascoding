@@ -56,7 +56,7 @@
                      <h5>Pada akhirnya semuanya tergantung kita sendiri untuk memilih dipisahkan atau tetap jadi 1, pilih mana yang lebih memudahkan kita, semuanya dapat berjalan asalkan gak salah coding aja <i class="far fa-grin-beam"></i></h5>
                      <br>
                      <hr>
-                     <h5><a href="<?= base_url('codeigniter/core') ?>">Codeigniter - core</a></h5>
+                     <h5><a href="<?= base_url('codeigniter/core') ?>" target="_blank">Codeigniter - core</a></h5>
                   </div>
                   <!-- controller -->
                   <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
@@ -99,7 +99,7 @@
                      <h5>- Buat file dalam folder views, contoh.php.</h5>
                      <h5>- Huruf depan view harus huruf kecil, untuk menandakan ini file view.</h5>
                      <h5>- Didalam view tidak ada tambahan apa-apa, isi hanya potongan template yang kita ambil dari bagian halaman utamanya saja (MAIN) hasil dari
-                        <a href="<?= base_url('WEB_template_dinamis') ?>">pemecahan template</a>.</h5>
+                        <a href="<?= base_url('website/template_dinamis') ?>" target="_blank">pemecahan template</a>.</h5>
                      <br>
                      <div class="card p-3 bg-gradient-info shadow">
                         <h5><i class="fas fa-fw fa-chess-board"></i> Ilustrasi</h5>

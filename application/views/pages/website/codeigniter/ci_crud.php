@@ -50,7 +50,7 @@
                      <h5>2. INPUT + DATA berupa tombol untuk melakuan sebuah prosess yang menggunakan rumus-rumus atau biasa disebut method, umumnya submit pada bagian akhir akan ada INPUT link yang mengarahkan ke sebuah halaman untuk menampilkan hasilnya.</h5>
                      <h5>Gampangnya apapun dilayar monitor yang dapat kita klik, semuanya pasti ada salah satu dari DATA INPUT, <i class="far fa-grin-beam"></i> dan link yang menghubungkan ke controller mana.</h5>
                      <h5>Semua data input akan masuk ke bagian controller untuk diproses, jadi apapun yang kita klik itu adalah nama dari sebuah controller, atau controller mana yang kita gunakan untuk mengeksekusi. dan name controller inilah yang ditampilkan sebagai URI setelah URL website kita.</h5>
-                     <h5>Setelah DATA INPUT sampai di controller, maka fungsi MVC dan fungsi CRUD digunakan. selengkapnya baca <a href="<?= base_url('codeigniter_mvc') ?>" target="_blank">MVC</a></h5>
+                     <h5>Setelah DATA INPUT sampai di controller, maka fungsi MVC dan fungsi CRUD digunakan. selengkapnya baca <a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">MVC</a></h5>
                      <h5>Semua fungsi CRUD = Create, Read, Update dan Delete, semua fungsi ini adalah process yang berhubungan dengan database, dan sesuai dengan cara MVC, berarti semua CRUD tempatnya berada di bagian folder MODELS. Didalam application.</h5>
                   </div>
                   <!-- create -->

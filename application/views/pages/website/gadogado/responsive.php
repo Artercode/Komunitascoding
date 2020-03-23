@@ -41,7 +41,7 @@
         <h5>Kita disini menggunakan bootstrap tentu saja sudah memiliki sistem GRID didalamnya.</h5>
         <br><br>
         <hr>
-        <h5><a href="<?= base_url('bootstrap_grid_layout') ?>">Bootstrap - GRID - Layout</a></h5>
+        <h5><a href="<?= base_url('bootstrap/grid_layout') ?>" target="_blank">Bootstrap - GRID - Layout</a></h5>
     </div>
     <!-- ### akhir halaman ### -->
     <br><br>

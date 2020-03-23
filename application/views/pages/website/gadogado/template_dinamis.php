@@ -43,9 +43,9 @@
 					<div class="tab-content" id="vert-tabs-right-tabContent">
 						<!-- template dinamis -->
 						<div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
-							<h5>Pada umumnya sebuah halaman website, terdapat kerangka dasar <a href="<?= base_url('html_kerangka_dasar') ?>" target="_blank">HTML</a>, head dan body</h5>
+							<h5>Pada umumnya sebuah halaman website, terdapat kerangka dasar <a href="<?= base_url('html/kerangka_dasar') ?>" target="_blank">HTML</a>, head dan body</h5>
 							<h5>Dalam body merupakan tempat coding untuk membuat sebuah halaman website.</h5>
-							<h5>Template dinamis merupakan pemisahan struktur <a href="<?= base_url('html_kerangka_dasar') ?>" target="_blank">HTML</a> yang terdapat pada suatu halaman website.</h5>
+							<h5>Template dinamis merupakan pemisahan struktur <a href="<?= base_url('html/kerangka_dasar') ?>" target="_blank">HTML</a> yang terdapat pada suatu halaman website.</h5>
 							<h5>Tidak ada ketentuan pasti, berapa banyak halaman itu akan dipotong, yang terpenting tidak ada bagian yang hilang dan pada saat memangil halaman itu harus berurutan sesuai potongannya.</h5>
 							<br>
 							<h5>Tujuan dari pemipisahan menjadi beberapa bagian untuk memudahkan kita dalam mengerjakan coding . asal jangan memotong ditengah codingan, wah ini tambah ribet nanti <i class="far fa-grin-beam"></i> .</h5>
@@ -61,7 +61,7 @@
 							<br>
 							<h5>Untuk merangkai kembali saat menampilkan halaman website seutuhnya, akan dilakukan di bagian controllers, inilah salah satu fungsi dari controller.</h5>
 							<h5>Dan yang terpenting harus berurutan sesuai urutan pemotongan yang kita buat.</h5>
-							<h5>Sampai disini pengertian soal template dinamis, untuk melengkapi sebaiknya baca bagian <a href="<?= base_url('codeigniter_mvc') ?>">MVC</a>, hal ini perlu dibahas di bagian terpisah.</h5>
+							<h5>Sampai disini pengertian soal template dinamis, untuk melengkapi sebaiknya baca bagian <a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">MVC</a>, hal ini perlu dibahas di bagian terpisah.</h5>
 						</div>
 						<!-- link dinamis -->
 						<div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
