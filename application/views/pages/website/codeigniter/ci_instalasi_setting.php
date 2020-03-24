@@ -100,6 +100,12 @@
 							<h5>- [61] $autoload['libraries'] = array('database', 'email', 'session', 'form_validation', '<code>nama</code>');</h5>
 							<h5>- [92] $autoload['helper'] = array('url', 'form', 'file', 'security', '<code>nama</code>');</h5>
 							<h5>Cara kerja autoload, dia akan menjalankan semua apa yang kita autoload pada saat kita membuka halaman website, di semua halaman website, OKI sebaiknya untuk form_validation karena file nya berat sebaiknya di load manual saja di halaman web yang membutuhkan saja, jika tidak maka kerja server akan berat.</h5>
+							<br>
+							<div class="card p-3 bg-gradient-info shadow">
+								<h5><i class="fas fa-fw fa-chess-board"></i> Ilustrasi</h5>
+								<h5>Untuk meringankan kerja server, kurangi script link di bagian head atau footer yang tidak terpakai.</h5>
+							</div>
+							<br>
 							<h5>Selain itu kita juga bisa membuat libraries atau helper sendiri,</h5>
 							<h5>- Harus ditempatkan dalam forder masing2 cari di bagian application/libraries dan application/helper.</h5>
 							<h5>- Aturan nama nya: nama_library.php atau nama_helper.php</h5>
