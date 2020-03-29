@@ -26,13 +26,13 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('VScode/Instalasi') ?>" class="nav-link">
+                     <a href="<?= base_url('Vscode/Instalasi') ?>" class="nav-link">
                         <i class="nav-icon far fa-circle"></i>
                         <p>VScode - Instalasi</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('VScode/Extension') ?>" class="nav-link">
+                     <a href="<?= base_url('Vscode/Extension') ?>" class="nav-link">
                         <i class="nav-icon far fa-circle"></i>
                         <p>VScode - Extensions</p>
                      </a>
@@ -47,7 +47,7 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('HTML/Kerangka_Dasar') ?>" class="nav-link">
+                     <a href="<?= base_url('html/Kerangka_Dasar') ?>" class="nav-link">
                         <i class="nav-icon fas fa-code"></i>
                         <p>HTML - Kerangka Dasar</p>
                      </a>
@@ -146,15 +146,13 @@
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('Website/Session_Cookies') ?>" class="nav-link">
+                     <a href="<?= base_url('Website/Session_Cookies_Cache') ?>" class="nav-link">
                         <i class="nav-icon far fa-fw fa-circle"></i>
-                        <p>Sesssion & Cookies</p>
+                        <p>Sesssion|Cookies|Cache</p>
                      </a>
                   </li>
                </ul>
             </li>
-
-
          </ul>
       </nav>
       <!-- Akhir sidebar menu -->

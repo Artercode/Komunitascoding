@@ -30,6 +30,7 @@
       </div>
    </section>
    <!-- ### akhir judul ### -->
+
    <div class="col-lg-11 container-fluid">
       <?php $this->load->view('layouts/_alert') ?>
       <div class="mt-n2 row">

@@ -2,17 +2,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-3">
 	<!-- Brand Logo -->
 	<a href="" class="brand-link">
-		<img src="<?= base_url() ?>images/user/avatar.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-		<span class="brand-text font-weight-light">
-			<?php if (!$this->session->userdata('is_login')) : ?>
-				<div class="mb-n3 row">
-					<i class="mx-1 mt-1 fas fa-fw fa-child"></i>
-					<p>Selamat Datang</p>
-				</div>
-			<?php else : ?>
-				<?= $this->session->userdata('name') ?>
-			<?php endif ?>
-		</span>
+		<img src="<?= base_url() ?>images/user/avatar.jpg" class="brand-image img-circle elevation-3" alt="User Image">
+		<span class="brand-text font-weight-light">Selamat Datang</span>
 	</a>
 
 	<!-- Sidebar -->
@@ -28,19 +19,19 @@
 					</a>
 					<ul class="nav nav-treeview">
 						<li class="nav-item">
-							<a href="<?= base_url('Selamat_Datang') ?>" class="nav-link active">
+							<a href="<?= base_url('Selamat_datang') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-child"></i>
 								<p>Selamat Datang</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="<?= base_url('Selamat_Datang/Note') ?>" class="nav-link active">
+							<a href="<?= base_url('Selamat_datang/Note') ?>" class="nav-link active">
 								<i class="nav-icon far fa-sticky-note"></i>
 								<p>Note</p>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="<?= base_url('Selamat_Datang/Camp') ?>" class="nav-link active">
+							<a href="<?= base_url('Selamat_datang/Camp') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-campground"></i>
 								<p>Camp</p>
 							</a>
@@ -49,7 +40,7 @@
 				</li>
 				<!-- ########## sekedar tau ########## -->
 				<li class="nav-item">
-					<a href="<?= base_url('Selamat_Datang/Sekedar_Tau') ?>" class="nav-link">
+					<a href="<?= base_url('Selamat_datang/Sekedar_Tau') ?>" class="nav-link">
 						<i class="nav-icon fas fa-feather"></i>
 						<p>Sekedar Tau<span class="right badge badge-danger">Baru</span></p>
 					</a>
@@ -70,7 +61,7 @@
 					</ul>
 					<ul class="nav nav-treeview">
 						<li class="nav-item">
-							<a href="<?= base_url('aula_projek') ?>" class="nav-link active">
+							<a href="<?= base_url('Aula_projek') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-project-diagram"></i>
 								<p>Projek</p>
 							</a>
@@ -93,7 +84,7 @@
 					</a>
 					<ul class="nav nav-treeview">
 						<li class="nav-item">
-							<a href="<?= base_url('website') ?>" class="nav-link active">
+							<a href="<?= base_url('Website') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-globe"></i>
 								<p>Website</p>
 							</a>
@@ -109,7 +100,7 @@
 					</ul>
 					<ul class="nav nav-treeview">
 						<li class="nav-item">
-							<a href="<?= base_url('arsip') ?>" class="nav-link active">
+							<a href="<?= base_url('Arsip') ?>" class="nav-link active">
 								<i class="nav-icon fas fa-archive"></i>
 								<p>Arsip</p>
 							</a>

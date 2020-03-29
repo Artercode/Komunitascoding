@@ -31,10 +31,10 @@ class Website extends MY_Controller
 		return $this->view($data);
 	}
 
-	public function session_cookies()
+	public function session_cookies_cache()
 	{
-		$data['title'] = 'Session';
-		$data['page'] = 'pages/website/gadogado/session_cookies';
+		$data['title'] = 'Session|Cookies|Cache';
+		$data['page'] = 'pages/website/gadogado/session_cookies_cache';
 		return $this->view($data);
 	}
 }

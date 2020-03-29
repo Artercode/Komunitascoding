@@ -9,7 +9,7 @@
       <div class="container-fluid">
          <div class="row mx-1">
             <div class="col-sm-6">
-               <h3 class="font-weight-bold text-gray"><i class="nav-icon far fa-circle"></i> Session & Cookies</h3>
+               <h3 class="font-weight-bold text-gray"><i class="nav-icon far fa-circle"></i> Session|Cookies|Cache</h3>
             </div>
             <!-- info -->
             <div class="h2 col-sm-6">
@@ -57,6 +57,11 @@
                      <h5>4. Intinya apapun yang kita lakuan di web atau secara online ada jejaknya <i class="far fa-grin-beam"></i></h5>
 
                   </div>
+                  <!-- cache -->
+                  <div class="tab-pane fade" id="vert-tabs-right-3" role="tabpanel" aria-labelledby="vert-tabs-right-3-tab">
+                     <h5>1. <i class="far fa-grin-beam"></i></h5>
+
+                  </div>
                   <br><br>
                </div>
             </div>
@@ -68,6 +73,8 @@
                   <a class="nav-link active" id="vert-tabs-right-1-tab" data-toggle="pill" href="#vert-tabs-right-1" role="tab" aria-controls="vert-tabs-right-1" aria-selected="false">Session</a>
                   <!-- cookies -->
                   <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Cookies</a>
+                  <!-- cache -->
+                  <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Cache</a>
                </div>
             </div>
          </div>

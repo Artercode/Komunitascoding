@@ -27,7 +27,7 @@ class Role_menu_access extends MY_Controller
       $data['title']       = 'Role & Menu Akses';
       $data['role']        = $this->db->get('user_role')->result_array();
       $data['access_menu'] = $this->db->get('user_access_menu')->result_array();
-      $data['page']        = 'pages/auth/ceo/role_menu_access';
+      $data['page']        = 'auth/ceo/role_menu_access';
       return $this->view($data);
    }
 
