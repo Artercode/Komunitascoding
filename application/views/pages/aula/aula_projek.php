@@ -1,4 +1,4 @@
-<!-- bootstrap instalasi -->
+<!-- aula projek -->
 <div class="content-wrapper">
    <!-- Sidebar  -->
    <?php $this->load->view('layouts/_sidebar'); ?>
@@ -25,10 +25,10 @@
                   <h6>3. Ide dan koreksi sangat berharga buat kami.</h6>
                   <h6>4. Semoga bermanfaat buat kita semua.</h6>
                   <h6>5. Terima kasih atas supportnya untuk Komunitascoding.</h6>
-                  <br>
-                  <h6>Rencana update:</h6>
-                  <h6>-bagian tanya jawab/diskusi.</h6>
-                  <h6>-notifikasi bila ada balasan diskusi</h6>
+                  <h6>
+                     <h6>Rencana update:</h6>
+                     <h6>-bagian tanya jawab/diskusi.</h6>
+                     <h6>-notifikasi bila ada balasan diskusi</h6>
                </div>
             </div>
             <!-- akhir info -->
@@ -39,7 +39,7 @@
 
    <!-- ########## halaman ########## -->
    <div class="col-lg-11 mt-n2 container-fluid">
-      <!-- projek login3admin -->
+      <!-- projek login -->
       <div class="mb-3 card card-outline card-indigo collapsed">
          <!-- card head -->
          <div class="card-header">
@@ -47,13 +47,13 @@
                <tbody>
                   <tr>
                      <td>29h 12:05</td>
-                     <td>Login3Admin</td>
+                     <td>Login</td>
                      <td>Sistim Login</td>
                      <td>CI-BS</td>
                      <td>Arter Code</td>
                      <td>
                         <div class="card-tools float-right">
-                           <a href="https://github.com/Artercode/login3admin" target="_blank" type="button" class="btn btn-sm btn-info">Github Projek</a>
+                           <a href="https://github.com/Artercode/login" target="_blank" type="button" class="btn btn-sm btn-info">Github</a>
                            <button type="button" class="mr-n4 btn btn-tool" data-card-widget="collapse"><i class="fas fa-fw fa-plus"></i>
                            </button>
                         </div>
@@ -65,64 +65,20 @@
          <!-- card body -->
          <div class="card-body" style="display: none;">
             <h5>Diskripsi:</h5>
-            <h6>Nama program : Login3admin</h6>
+            <h6>Nama program : Login</h6>
             <h6>Program : Sistim Login</h6>
             <h6>Platform: Codeigniter - AdminLTE-3.0.2</h6>
             <h6>Fasilitas:</h6>
-            <h6>- 3 Role.</h6>
-            <h6>- Menu dinamis & tampil sesuai role.</h6>
-            <h6>- Konfirmasi email.</h6>
+            <h6>- 3 Level.</h6>
+            <h6>- 3 Menu dinamis & tampil sesuai Level.</h6>
+            <h6>- Konfirmasi email untuk register.</h6>
          </div>
          <!-- card footer -->
          <!-- tempat diskusi -->
       </div>
-      <!-- akhir projek login3admin -->
+      <!-- akhir projek login -->
 
-      <!-- projek kasir touchscreen -->
-      <div class="mb-3 card card-outline card-indigo collapsed">
-         <!-- card head -->
-         <div class="card-header">
-            <table class="table m-n3">
-               <tbody>
-                  <tr>
-                     <td>29h 12:05</td>
-                     <td>KasirTS</td>
-                     <td>Kasir</td>
-                     <td>CI-BS</td>
-                     <td>Arter Code</td>
-                     <td>
-                        <div class="card-tools float-right">
-                           <a href="https://github.com/Artercode/kasirTS" target="_blank" type="button" class="btn btn-sm btn-info">Github Projek</a>
-                           <button type="button" class="mr-n4 btn btn-tool" data-card-widget="collapse"><i class="fas fa-fw fa-plus"></i>
-                           </button>
-                        </div>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-         <!-- card body -->
-         <div class="card-body" style="display: none;">
-            <h5>Diskripsi:</h5>
-            <h6>Nama program : KasirTS</h6>
-            <h6>Program : Sisitim Login</h6>
-            <h6>Platform: Codeigniter - AdminLTE-3.0.2</h6>
-            <h6>Fasilitas:</h6>
-            <h6>- touchscreen monitor.</h6>
-            <h6>- Manual & barcode input</h6>
-            <h6>- 3 tingkat satuan barang harga jual barang.</h6>
-            <h6>- Cetak nota 3 ukuran kertas</h6>
-            <h6>- Laporan penjualan</h6>
-            <h6>- Stok & notivikasi.</h6>
-            <h6>- 3 role & menu dinamis.</h6>
-            <h6>- Data petugas kasir & catatan login.</h6>
-            <h6>- Data suplaier & perbandingan harga.</h6>
-            <h6>- Setting untuk pengelolaan program</h6>
-         </div>
-         <!-- card footer -->
-         <!-- tempat diskusi -->
-      </div>
-      <!-- akhir projek kasir touchscreen -->
+
 
    </div>
    <!-- ### akhir halaman ### -->
@@ -131,4 +87,4 @@
       <i class="fas fa-chevron-up"></i>
    </a>
 </div>
-<!-- akhir bootstrap instalasi-->
+<!-- akhir aula projek-->

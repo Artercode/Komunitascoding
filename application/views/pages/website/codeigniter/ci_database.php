@@ -50,7 +50,7 @@
                         Untuk pengelolaan data kita gunakan cara <a href="<?= base_url('codeigniter/crud') ?>" target="_blank">CRUD</a>, <br>
                         yang biasanya ditempatkan di bagian folder models sesuai dengan sistim <a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">MVC</a>
                         <br><br>
-                        Contoh tabel Anggota : <br>
+                        Contoh tabel User : <br>
                      </div>
                      <table class="table table-bordered">
                         <tr>
@@ -76,40 +76,55 @@
                   <!-- type data -->
                   <div class="tab-pane fade" id="vert-tabs-right-3" role="tabpanel" aria-labelledby="vert-tabs-right-3-tab">
                      <div class="h5">
-                        Hanya 2 type data untuk distribusi : data Object dan array.
-                        Cara coding data object dan array berbeda, gak bisa dicampur aduk.
+                        Hanya 2 type data untuk distribusi data : Object dan array. <br>
+                        Cara penulisan coding data object dan array berbeda, gak bisa dicampur aduk. <br>
+                        Hal ini perlu dipahami setidaknya akan mengurai coding agar lebih mudah untuk dibaca bagi pemula.
                         <br><br>
-                        OBJECT <br>
-                        1. Penggunaan tanda -> , <i class="text-olive">tidak termasuk tanda -> milik Codeigniter</i> <br>
-                        2. Penulisan di foreach <code>&lt?= $data->name ?&gt</code> <br>
-                        3. ->row (untuk ambil 1 row) dan ->result (untuk ambil 1 tabel) <br>
+                        OBJECT : <br>
+                        1.. Penggunaan tanda -> , <i class="text-olive">tidak termasuk tanda -> milik Codeigniter</i> <br>
+                        2.. Penulisan di foreach <code>&lt?= $data->name ?&gt</code> <br>
+                        3.. ->row (untuk ambil 1 row) dan ->result (untuk ambil 1 tabel) <br>
                         --<code> $input = $this->input->post(null, true)->row();</code> <br>
-                        --<code> $data['content'] = $this->db->get('Nama_tabel', $email)->result();</code> <br>
-                        4. merubah data dari array ke object <br>
+                        --<code> $this->input->post(null, true);</code> bawaan post berupa array <br>
+                        --<code> $data['user'] = $this->db->get('Nama_tabel', $email)->result();</code> <br>
+                        4.. merubah data dari array ke object <br>
                         --<code> $data['content'] = (object) $this->db->get_where('id', $id);</code> <br>
-                        --<code> $this->input->post(null, true);</code> bawaan berupa array <br>
 
-                        5. Kerja server lebih ringan dengan mengunakan data object.
+                        5.. Kerja server lebih ringan dengan mengunakan data object.
                         <br><br>
-                        ARRAY <br>
-                        1. Penggunaan tanda [ ] dan => <br>
+                        ARRAY : <br>
+                        1.. Penggunaan tanda [ ] dan => <br>
                         --<code> $data = [ <br>
                            'name' => $this->input->post('name')<br>
                            ];</code> <br>
-                        2. Penulisan di foreach <code>&lt?= $data['name'] ?&gt</code> <br>
-                        3. ->row_array (untuk ambil 1 row) dan ->result_array (untuk ambil 1 tabel) <br>
+                        2.. Penulisan di foreach <code>&lt?= $data['name'] ?&gt</code> <br>
+                        3.. ->row_array (untuk ambil 1 row) dan ->result_array (untuk ambil 1 tabel) <br>
                         --<code> $input = $this->input->post(null, true)->row_array();</code> <br>
-                        --<code> $data['content'] = $this->db->get('Nama_tabel')->result_array();</code> <br>
-                        4. merubah data dari object ke array <br>
+                        --<code> $data['user'] = $this->db->get('Nama_tabel', $email)->result_array();</code> <br>
+                        4.. merubah data dari object ke array <br>
                         --<code> $content->row_array();</code> <i class="text-olive">jika data content berupa object.</i> <br>
 
                         <!-- 5. Semua data yang diambil dari inputan dan database, dasarnya berupa type array. -->
                         <br><br>
                      </div>
                   </div>
-                  <!-- jumlah data -->
+                  <!-- ambil data -->
                   <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
-                     <h5>1. Pakem</h5>
+                     <div class="h5">
+                        Banyak syntak untuk mengambil data : <br>
+                        1. Satu tabel data di ambil semua: <br>
+                        -- Ambil semua data yang ada di tabel type object<br>
+                        <code>$data['user'] = $this->db->get('user')->result();</code>
+                        <br><br>
+                        2. Satu baris data : <br>
+                        -- Ambil sebaris data berdasarkan email dari session atau user login type array<br>
+                        <code>$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();</code> <br>
+                        -- Ambil satu data saja dari data user di atas, kolom name (asal data type array)<br>
+                        <code>$name = $data['user']['name'];</code> <br>
+                        -- Ambil sebaris data berdasarkan $email type object
+                        <code>$user = $this->db->get_where('user', ['email' => $email])->row();</code>
+                        <br><br>
+                     </div>
 
                   </div>
                   <br><br>
@@ -123,8 +138,8 @@
                   <a class="nav-link active" id="vert-tabs-right-1-tab" data-toggle="pill" href="#vert-tabs-right-1" role="tab" aria-controls="vert-tabs-right-1" aria-selected="false">Intro</a>
                   <!-- type data -->
                   <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Object & Array</a>
-                  <!-- junlah data -->
-                  <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Jumlah Data</a>
+                  <!-- ambil data -->
+                  <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Ambil Data</a>
                </div>
             </div>
          </div>

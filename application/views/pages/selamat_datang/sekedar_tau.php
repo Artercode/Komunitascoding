@@ -38,32 +38,36 @@
                   <!-- intro -->
                   <div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
                      <section>
-                        <h5>1. Gunakan bahasa sehari-hari aja, gak perlu EYD yang penting sopan dan mudah dipahami.</h5>
-                        <h5>2. <kbd>Cod</kbd> == panggilan untuk semua anggota, seperti gan,bos, dll.
-                           karena computer tidak mengenal <code>gender, sara, dan perundungan</code>.</h5>
-                        <h5>3. Gunakan bahasa Inggris hanya untuk syntak codingnya aja,
-                           supaya jelas mana syntak bawaan pemograman mana bukan, dengan cara ini diharapkan akan lebih mudah bagi yang baru belajar.</h5>
-                        <h5>4. Komunitascoding tempat untuk semua, gampangnya tempat umum. <i class="far fa-grin-beam"></i></h5>
-                        <h5>5. Komunitascoding 100% nirlaba website sampai kiamat. <i class="far fa-grin-beam"></i></h5>
-                        <h5>6. Admin akan dipilih secara demokrasi dari para anggota oleh anggota.</h5>
-                        <h5>7. Coding website ini ada di <strong><a href="https://github.com/Artercode/komunitascoding" target="_black" class="ml-1"><i class="fab fa-fw fa-github"></i> Github</a></strong>, kami butuh bantuan untuk melengkapi modul yang bermanfaat bagi kita semua.</h5>
-                        <h5>8. Koreksi dan ide kalian sangat kami butuhkan, infokan ke Admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h5>
-
+                        <div class="h5">
+                           1.. Gunakan bahasa sehari-hari aja, gak perlu EYD yang penting sopan dan mudah dipahami. <br>
+                           2.. Gunakan bahasa Inggris hanya untuk syntak codingnya aja,
+                           supaya jelas mana syntak bawaan programan mana bukan, dengan cara ini diharapkan akan lebih mudah bagi yang baru belajar. <br>
+                           3.. Kita akan ubah semua bahasa teknis menjadi bahasa awam, supanya mudah untuk diingat dan dipahami. <br>
+                           4.. <kbd>Cod</kbd> == panggilan untuk semua anggota, seperti gan,bos, dll. Karena computer tidak mengenal <code>gender, sara, dan perundungan</code>. <br>
+                           5.. Komunitascoding tempat untuk semua, gampangnya tempat umum. <i class="far fa-grin-beam"></i> <br>
+                           6.. Komunitascoding 100% nirlaba website sampai kiamat. <i class="far fa-grin-beam"></i> <br>
+                           7.. Admin akan dipilih secara demokrasi dari para anggota oleh anggota. <br>
+                           8.. Coding website ini ada di <strong><a href="https://github.com/Artercode/komunitascoding" target="_black" class="ml-1"><i class="fab fa-fw fa-github"></i> Github</a></strong>, kami butuh bantuan untuk melengkapi modul yang bermanfaat bagi kita semua. <br>
+                           9.. Koreksi dan ide kalian sangat kami butuhkan, infokan ke Admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a> <br>
+                        </div>
                      </section>
                   </div>
                   <!-- grid -->
                   <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
                      <section class="container col mt-n2">
-                        <h5>1. Sejalan dengan salah satu tujuan dibuatnya komunitas ini untuk contekan bagi yang sudah mahir, ya.. mungkin aja ada bagian yang lupa. Sekalian bagi pemula merupakan jalan TOL untuk belajar coding yang diminatinya, supaya tidak mempelajari coding yang sudah expired , kayak jajanan aja <i class="far fa-grin-beam"></i></h5>
-                        <h5>2. Untuk mewujutkan itu, kami harapkan bantuan semua, apabila melihat bagian yang salah ketik atau ada coding yang sudah expired yang sudah tidak digunakan lagi. MOHON DENGAN SANGAT di infokan ke admin untuk segera diperbaiki dan menghapus semua yang expired, supaya kita tidak memberikan arahan yang salah.</h5>
-                        <h5>3. Kami akan selalu memilah dan memilih, banyak cara coding yang bisa diterapkan. sesuai dengan keputusan bersama kami akan membahas maksimal 2 yang terbaik dan terbaru saja, supaya bagi pemula tidak membingung dan lewat jalan TOL untuk belajar. Termasuk ajari kami para admin jika masih salah aja <i class="far fa-grin-beam"></i> Manusia tidak terlepas dari kesalahan.. Amin <i class="far fa-grin-beam"></i></h5>
+                        <div class="h5">
+                           1.. Sejalan dengan salah satu tujuan dibuatnya komunitas ini untuk contekan bagi yang sudah mahir, ya.. mungkin aja ada bagian yang lupa. Sekalian bagi pemula merupakan jalan TOL untuk belajar coding yang diminatinya, supaya tidak mempelajari coding yang sudah expired , kayak jajanan aja <i class="far fa-grin-beam"></i> <br>
+                           2.. Untuk mewujutkan itu, kami harapkan bantuan semua, apabila melihat bagian yang salah ketik atau ada coding yang sudah expired yang sudah tidak digunakan lagi. MOHON DENGAN SANGAT di infokan ke admin untuk segera diperbaiki dan menghapus semua yang expired, supaya kita tidak memberikan arahan yang salah. <br>
+                           3.. Kami akan selalu memilah dan memilih, banyak cara coding yang bisa diterapkan. sesuai dengan keputusan bersama kami akan membahas maksimal 2 yang terbaik dan terbaru saja, supaya bagi pemula tidak membingung dan lewat jalan TOL untuk belajar. Termasuk ajari kami para admin jika masih salah aja <i class="far fa-grin-beam"></i> Manusia tidak terlepas dari kesalahan.. Amin <i class="far fa-grin-beam"></i> <br>
+                        </div>
                      </section>
                   </div>
                   <!-- layout -->
                   <div class="tab-pane fade" id="vert-tabs-right-3" role="tabpanel" aria-labelledby="vert-tabs-right-3-tab">
                      <section class="container col mt-n2">
-                        <h5>1. Pakem</h5>
+                        <div class="h5">
 
+                        </div>
                      </section>
                   </div>
                   <br><br>
@@ -78,7 +82,7 @@
                   <!-- grid -->
                   <a class="nav-link" id="vert-tabs-right-2-tab" data-toggle="pill" href="#vert-tabs-right-2" role="tab" aria-controls="vert-tabs-right-2" aria-selected="false">Up-to-date</a>
                   <!-- layout -->
-                  <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Masih dipikirkan <i class="far fa-grin-beam"></i></a>
+                  <a class="nav-link" id="vert-tabs-right-3-tab" data-toggle="pill" href="#vert-tabs-right-3" role="tab" aria-controls="vert-tabs-right-3" aria-selected="false">Menunggu saran & ide <i class="far fa-grin-beam"></i></a>
                </div>
             </div>
          </div>

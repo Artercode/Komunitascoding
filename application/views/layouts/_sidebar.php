@@ -6,7 +6,6 @@
 		<span class="brand-text font-weight-light">Selamat Datang</span>
 	</a>
 
-	<!-- Sidebar -->
 	<div class="sidebar">
 		<!-- Sidebar Menu -->
 		<nav class="mt-2">
@@ -107,11 +106,25 @@
 						</li>
 					</ul>
 				</li>
+				<!-- ########## ukm kasir ########## -->
+				<li class="mt-4 nav-item">
+					<a href="<?= base_url('Ukm_Kasir') ?>" class="nav-link active">
+						<i class="nav-icon fas fa-store"></i>
+						<p>UKM Kasir<i class="right fas fa-angle-left"></i></p>
+					</a>
+					<!-- <ul class="nav nav-treeview">
+						<li class="nav-item">
+							<a href="" class="nav-link active">
+								<i class="nav-icon fas fa-store"></i>
+								<p></p>
+							</a>
+						</li>
+					</ul> -->
+				</li>
 
 			</ul>
 		</nav>
-		<!-- /.sidebar-menu -->
+		<!-- akhir sidebar menu -->
 	</div>
-	<!-- /.sidebar -->
 </aside>
 <!-- akhir sidebar -->

@@ -38,16 +38,16 @@
       <h5>IF adalah syntak php yang paling sering digunakan, tentang pengkondisian.</h5>
       <h5>Dan paling sering membingungkan bagi pemula,</h5>
       <br>
-      <h5>Cara penulisan IF hanya ada 2 macam, dan artinya sama saja:</h5>
-      <h5>&lt?php IF(argument) ? (1.benar) : (2.salah) ?&gt</h5>
+      <h5>Cara penulisan IF ada 2 macam, dan artinya sama saja, yang lain merupakan pengembangan saja.</h5>
+      <h5><code>&lt?php IF(argument) ? Kondisi 1 benar : Kondisi 2 salah ?&gt</code></h5>
       <br>
-      <h5>&lt?php IF(argument) {</h5>
-      <h5>(1.benar)</h5>
-      <h5>} else {</h5>
-      <h5>(2.salah)</h5>
-      <h5>}</h5>
+      <h5><code>&lt?php IF(argument) {</code></h5>
+      <h5><code> Kondisi 1 benar</code></h5>
+      <h5><code>} else {</code></h5>
+      <h5><code> Kondisi 2 salah</code></h5>
+      <h5><code>}</code></h5>
       <br>
-      <h5>Apapun argumentnya, yang 1 mau ngapain kita jika benar, yang 2 jika salah kita harus begini..., dan terpenting tidak bisa ditukar posisinya. Computer akan membaca 1 itu benar meskipun kita tukar( 2 lalu 1). Jadi jangan dibalik-balik bisa pusing sendiri <i class="far fa-grin-beam"></i> soalnya computer bacanya gak bisa dibalik 1ya1 , 2ya2.</h5>
+      <h5>Apapun argumentnya, yang 1 mau ngapain kita jika benar, yang 2 jika salah kita harus begini..., dan terpenting tidak bisa ditukar posisinya. </h5>
 
    </div>
    <!-- ### akhir halaman ### -->

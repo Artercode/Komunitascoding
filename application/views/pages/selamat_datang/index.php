@@ -10,7 +10,7 @@
 			<div class="mt-2 col text-center">
 				<h1 class="mb-n1">Komunitas codinG</h1>
 				<h4 class="mb-n1">Selalu dikembangkan</h4>
-				<span style="color: salmon">Update : 29-03-20</span>
+				<span style="color: salmon">Update : 12 April 20</span>
 			</div>
 		</div>
 		<!-- ### akhir komunitascoding ### -->

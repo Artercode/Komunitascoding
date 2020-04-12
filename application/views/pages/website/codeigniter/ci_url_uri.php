@@ -1,4 +1,4 @@
-<!-- web mvc -->
+<!-- ci url uri -->
 <div class="content-wrapper">
    <!-- Sidebar  -->
    <?php $this->load->view('layouts/_sidebar_website'); ?>
@@ -18,13 +18,13 @@
                </a>
                <!-- Dropdown info -->
                <div class="p-4 dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="dropdown">
-                  <h6>1. Bila ada salah ketik atau kurang lengkap </h6>
-                  <h6> sampaikan ke admin akan segera kami perbaiki.</h6>
-                  <h6>2. Bila ada cara yang lebih baik, mudah dan cepat, </h6>
-                  <h6> untuk mempelajari infokan ke admin. <a href="<?= base_url('selamat_datang') ?>"><kbd>Kontak</kbd></a></h6>
-                  <h6>3. Ide dan koreksi sangat berharga buat kami.</h6>
-                  <h6>4. Semoga bermanfaat buat kita semua.</h6>
-                  <h6>5. Terima kasih atas supportnya untuk Komunitascoding.</h6>
+                  <div class="h6">
+                     1. Bila ada salah ketik atau kurang lengkap, sampaikan ke admin akan segera kami perbaiki. <br>
+                     2. Bila ada cara yang lebih baik, mudah dan cepat, untuk mempelajari infokan ke admin. <a href="<?= base_url('/') ?>"><kbd>Kontak</kbd></a> <br>
+                     3. Ide dan koreksi sangat berharga buat kami. <br>
+                     4. Semoga bermanfaat buat kita semua. <br>
+                     5. Terima kasih atas supportnya untuk Komunitascoding.
+                  </div>
                </div>
             </div>
             <!-- akhir info -->
@@ -43,17 +43,22 @@
                <div class="tab-content" id="vert-tabs-right-tabContent">
                   <!-- url friendly -->
                   <div class="tab-pane fade show active" id="vert-tabs-right-1" role="tabpanel" aria-labelledby="vert-tabs-right-1-tab">
-                     <h5>Pada dasarnya Ci berorientasi terhadap url, dengan demikian kita dapat mengatur tampilan url sesuai kebutuhan kita.</h5>
-                     <h5>Standart CI : http://url/uri/segment1/segment2/segment3/</h5>
-                     <h5>- Url = tempat nama domain : http://komunitascoding.com/uri/segment1/segment2/segment3/</h5>
-                     <h5>- uri = controller yang kita buat : http://komunitascoding.com/controller/segment1/segment2/segment3/</h5>
-                     <h5>- segment = nama public function yang kita buat dalam file controller.</h5>
-                     <br>
-                     <h5>Dengan mengikuti aturan ini berarti kita sudah membuat url yang friendly terhadap search engiene.</h5>
-                     <h5>Dengan ini pula kita bisa meletakkan kata kunci untuk search engine sesuai kebutuhan kita, supaya bagian dari website kita dapat dengan mudah di tampilkan di search.</h5>
-                     <br>
-                     <hr>
-                     <h5><a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">Codeigniter - MVC/View</a></h5>
+                     <div class="h5">
+                        Pada dasarnya Ci berorientasi terhadap url, dengan demikian kita dapat mengatur tampilan url sesuai kebutuhan kita.
+                        <br><br>
+                        Standart CI : http://url/uri/ <br>
+
+                        -- Url = tempat nama domain : komunitascoding.com <br>
+                        -- Uri = dibagi3 bagian : segment1/segment2/segment3/ <br>
+                        -- Segment1 = tempat nama controller yang kita buat. <br>
+                        -- Segment2 dan Segment3 = public function yang kita buat dalam file controller. <br>
+                        OKI untuk memudahkan mencari viewnya, method dan halaman website, menggunakan nama yang sama atau mirip.
+                        <br><br>
+                        Dengan mengikuti aturan ini berarti kita sudah membuat url yang friendly terhadap search engiene. <br>
+                        Dengan ini pula kita bisa meletakkan kata kunci untuk search engine sesuai kebutuhan kita, supaya bagian dari website kita dapat dengan mudah dikenali oleh search engine. <br>
+                        <hr>
+                        <a href="<?= base_url('codeigniter/mvc') ?>" target="_blank">Codeigniter - MVC/View</a> <br>
+                     </div>
                   </div>
                   <!-- controller -->
                   <!-- <div class="tab-pane fade" id="vert-tabs-right-2" role="tabpanel" aria-labelledby="vert-tabs-right-2-tab">
@@ -88,4 +93,4 @@
       <i class="fas fa-chevron-up"></i>
    </a>
 </div>
-<!-- akhir web mvc -->
+<!-- akhir ci url uri -->

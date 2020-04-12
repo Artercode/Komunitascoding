@@ -48,9 +48,9 @@
                      <h5>Codeigniter sudah menyediakan fasilitas MVC di dalamnya, bisa kita lihat dalam folder application terdapat folder controllers, modals, dan views.</h5>
                      <h5>Pada dasarnya apa yang dilakukan didalam computer tidak semuanya ditampilan ke layar monitor, hanya bagian view saja yang akan ditampilkan.</h5>
                      <h5>Dengan adanya sistem MVC maka kita akan lebih mudah melakukan coding karena area coding kita pisahkan menjadi 3 bagian sesuai fungsinya:</h5>
-                     <h5>- Controllers: sesuai namanya adalah tempat menyimpan file control yang menghubungkan antara model dan viewnya, semua prosess HARUS melalui controller terlebih dahulu.</h5>
-                     <h5>- Models: hanya untuk menyimpan file rumus-rumus atau hitungan yang biasa disebut method dalam bahasa coding, termasuk method untuk mengelola database yang kita tempatkan di phpMyAdmin.</h5>
-                     <h5>- Views: hanya untuk menyimpan coding yang digunakan untuk tampilan pada layar monitor saja.</h5>
+                     <h5>-- Controllers: sesuai namanya adalah tempat menyimpan file control yang menghubungkan antara model dan viewnya, semua prosess HARUS melalui controller terlebih dahulu.</h5>
+                     <h5>-- Models: hanya untuk menyimpan file rumus-rumus atau hitungan yang biasa disebut method dalam bahasa coding, termasuk method untuk mengelola database yang kita tempatkan di phpMyAdmin.</h5>
+                     <h5>-- Views: hanya untuk menyimpan coding yang digunakan untuk tampilan pada layar monitor saja.</h5>
                      <h5>Dalam hal ini bisa dikatakan untuk 1 halaman website akan memiliki controller, model, dan view masing-masing.</h5>
                      <br>
                      <h5>Pada akhirnya semuanya tergantung kita sendiri untuk memilih dipisahkan atau tetap jadi 1, pilih mana yang lebih memudahkan kita, semuanya dapat berjalan asalkan gak salah coding aja <i class="far fa-grin-beam"></i></h5>
@@ -64,12 +64,12 @@
                         <img src="<?= base_url('images/website/codeigniter-mvc-controller.jpg') ?>" class="img-fluid" alt="">
                      </div>
                      <h5><b><code>VScode key: </code></b><kbd>controller + tab</kbd></h5>
-                     <h5>- Buat file dalam folder controllers, Contoh.php</h5>
-                     <h5>- Buka tag php <code>&lt?php</code> jangan lupa</h5>
-                     <h5>- Huruf depan controller harus huruf besar dan extends CI_controller</h5>
-                     <h5>- Semua harus lengkap, ini menjadikan file ini sebagai controller, nama disesuaikan dengan nama view nya sehingga mudah untuk mencari. misalnya: Home.php Beranda.php atau Login.php dll</h5>
-                     <h5>- public function index akan dijalankan secara otomatis bila kita memanggil controller ini, bagian yang harus ditampilkan secara otomatis hanyalah tampilan awal atau view nya.</h5>
-                     <h5>- Nama method dalam 1 file tidak boleh ada yang sama.</h5>
+                     <h5>-- Buat file dalam folder controllers, Contoh.php</h5>
+                     <h5>-- Buka tag php <code>&lt?php</code> jangan lupa</h5>
+                     <h5>-- Huruf depan controller harus huruf besar dan extends CI_controller</h5>
+                     <h5>-- Semua harus lengkap, ini menjadikan file ini sebagai controller, nama disesuaikan dengan nama view nya sehingga mudah untuk mencari. misalnya: Home.php Beranda.php atau Login.php dll</h5>
+                     <h5>-- public function index akan dijalankan secara otomatis bila kita memanggil controller ini, bagian yang harus ditampilkan secara otomatis hanyalah tampilan awal atau view nya.</h5>
+                     <h5>-- Nama method dalam 1 file tidak boleh ada yang sama.</h5>
                      <br>
                      <div class="card p-3 bg-gradient-info shadow">
                         <h5><i class="fas fa-fw fa-chess-board"></i> Ilustrasi</h5>
@@ -82,12 +82,12 @@
                         <img src="<?= base_url('images/website/codeigniter-mvc-model.jpg') ?>" class="img-fluid" alt="">
                      </div>
                      <h5><b><code>VScode key: </code></b><kbd>model + tab</kbd></h5>
-                     <h5>- Buat file dalam folder models, Contoh_model.php atau Contoh_m.php penambahan _model sebagai tanda bahwa file in adalah model.</h5>
-                     <h5>- Buka tag php <code>&lt?php</code> jangan lupa harus ada.</h5>
-                     <h5>- Huruf depan model harus huruf besar dan extends CI_model</h5>
-                     <h5>- Semua harus lengkap, ini menjadikan file ini sebagai model, nama disesuaikan dengan nama view nya sehingga mudah untuk mencari. misalnya: Home_model.php Beranda_model.php atau Login_model.php dll</h5>
-                     <h5>- Didalam model tidak ada method mengunakan nama INDEX, karena model hanya melakukan perhitungan atau eksekusi setelah ada permintaan dari controller.</h5>
-                     <h5>- Nama method dalam 1 file model juga tidak boleh ada yang sama, bisa bingung nanti computernya method mana yang mau dijalankan <i class="far fa-grin-beam"></i> .</h5>
+                     <h5>-- Buat file dalam folder models, Contoh_model.php atau Contoh_m.php penambahan _model sebagai tanda bahwa file in adalah model.</h5>
+                     <h5>-- Buka tag php <code>&lt?php</code> jangan lupa harus ada.</h5>
+                     <h5>-- Huruf depan model harus huruf besar dan extends CI_model</h5>
+                     <h5>-- Semua harus lengkap, ini menjadikan file ini sebagai model, nama disesuaikan dengan nama view nya sehingga mudah untuk mencari. misalnya: Home_model.php Beranda_model.php atau Login_model.php dll</h5>
+                     <h5>-- Didalam model tidak ada method mengunakan nama INDEX, karena model hanya melakukan perhitungan atau eksekusi setelah ada permintaan dari controller.</h5>
+                     <h5>-- Nama method dalam 1 file model juga tidak boleh ada yang sama, bisa bingung nanti computernya method mana yang mau dijalankan <i class="far fa-grin-beam"></i> .</h5>
                      <br>
                      <div class="card p-3 bg-gradient-info shadow">
                         <h5><i class="fas fa-fw fa-chess-board"></i> Ilustrasi</h5>
@@ -96,9 +96,9 @@
                   </div>
                   <!-- view -->
                   <div class="tab-pane fade" id="vert-tabs-right-4" role="tabpanel" aria-labelledby="vert-tabs-right-4-tab">
-                     <h5>- Buat file dalam folder views, contoh.php.</h5>
-                     <h5>- Huruf depan view harus huruf kecil, untuk menandakan ini file view.</h5>
-                     <h5>- Didalam view tidak ada tambahan apa-apa, isi hanya potongan template yang kita ambil dari bagian halaman utamanya saja (MAIN) hasil dari
+                     <h5>-- Buat file dalam folder views, contoh.php.</h5>
+                     <h5>-- Huruf depan view harus huruf kecil, untuk menandakan ini file view.</h5>
+                     <h5>-- Didalam view tidak ada tambahan apa-apa, isi hanya potongan template yang kita ambil dari bagian halaman utamanya saja (MAIN) hasil dari
                         <a href="<?= base_url('website/template_dinamis') ?>" target="_blank">pemecahan template</a>.</h5>
                      <br>
                      <div class="card p-3 bg-gradient-info shadow">
